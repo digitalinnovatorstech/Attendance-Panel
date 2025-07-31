@@ -1,1 +1,1405 @@
-[{"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add employee", "content_type": 7, "codename": "add_employee"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change employee", "content_type": 7, "codename": "change_employee"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete employee", "content_type": 7, "codename": "delete_employee"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view employee", "content_type": 7, "codename": "view_employee"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add Attendance Log", "content_type": 8, "codename": "add_attendancelog"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change Attendance Log", "content_type": 8, "codename": "change_attendancelog"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete Attendance Log", "content_type": 8, "codename": "delete_attendancelog"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view Attendance Log", "content_type": 8, "codename": "view_attendancelog"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add late login reason", "content_type": 9, "codename": "add_lateloginreason"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change late login reason", "content_type": 9, "codename": "change_lateloginreason"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete late login reason", "content_type": 9, "codename": "delete_lateloginreason"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view late login reason", "content_type": 9, "codename": "view_lateloginreason"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add daily work report", "content_type": 10, "codename": "add_dailyworkreport"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change daily work report", "content_type": 10, "codename": "change_dailyworkreport"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete daily work report", "content_type": 10, "codename": "delete_dailyworkreport"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view daily work report", "content_type": 10, "codename": "view_dailyworkreport"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add admin reply", "content_type": 11, "codename": "add_adminreply"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change admin reply", "content_type": 11, "codename": "change_adminreply"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete admin reply", "content_type": 11, "codename": "delete_adminreply"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view admin reply", "content_type": 11, "codename": "view_adminreply"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can add chat room", "content_type": 12, "codename": "add_chatroom"}}, {"model": "auth.permission", "pk": 46, "fields": {"name": "Can change chat room", "content_type": 12, "codename": "change_chatroom"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete chat room", "content_type": 12, "codename": "delete_chatroom"}}, {"model": "auth.permission", "pk": 48, "fields": {"name": "Can view chat room", "content_type": 12, "codename": "view_chatroom"}}, {"model": "auth.permission", "pk": 49, "fields": {"name": "Can add message", "content_type": 13, "codename": "add_message"}}, {"model": "auth.permission", "pk": 50, "fields": {"name": "Can change message", "content_type": 13, "codename": "change_message"}}, {"model": "auth.permission", "pk": 51, "fields": {"name": "Can delete message", "content_type": 13, "codename": "delete_message"}}, {"model": "auth.permission", "pk": 52, "fields": {"name": "Can view message", "content_type": 13, "codename": "view_message"}}, {"model": "auth.permission", "pk": 53, "fields": {"name": "Can add user status", "content_type": 14, "codename": "add_userstatus"}}, {"model": "auth.permission", "pk": 54, "fields": {"name": "Can change user status", "content_type": 14, "codename": "change_userstatus"}}, {"model": "auth.permission", "pk": 55, "fields": {"name": "Can delete user status", "content_type": 14, "codename": "delete_userstatus"}}, {"model": "auth.permission", "pk": 56, "fields": {"name": "Can view user status", "content_type": 14, "codename": "view_userstatus"}}, {"model": "auth.permission", "pk": 57, "fields": {"name": "Can add punch in out", "content_type": 15, "codename": "add_punchinout"}}, {"model": "auth.permission", "pk": 58, "fields": {"name": "Can change punch in out", "content_type": 15, "codename": "change_punchinout"}}, {"model": "auth.permission", "pk": 59, "fields": {"name": "Can delete punch in out", "content_type": 15, "codename": "delete_punchinout"}}, {"model": "auth.permission", "pk": 60, "fields": {"name": "Can view punch in out", "content_type": 15, "codename": "view_punchinout"}}, {"model": "auth.permission", "pk": 61, "fields": {"name": "Can add password reset token", "content_type": 16, "codename": "add_passwordresettoken"}}, {"model": "auth.permission", "pk": 62, "fields": {"name": "Can change password reset token", "content_type": 16, "codename": "change_passwordresettoken"}}, {"model": "auth.permission", "pk": 63, "fields": {"name": "Can delete password reset token", "content_type": 16, "codename": "delete_passwordresettoken"}}, {"model": "auth.permission", "pk": 64, "fields": {"name": "Can view password reset token", "content_type": 16, "codename": "view_passwordresettoken"}}, {"model": "auth.permission", "pk": 65, "fields": {"name": "Can add message read receipt", "content_type": 17, "codename": "add_messagereadreceipt"}}, {"model": "auth.permission", "pk": 66, "fields": {"name": "Can change message read receipt", "content_type": 17, "codename": "change_messagereadreceipt"}}, {"model": "auth.permission", "pk": 67, "fields": {"name": "Can delete message read receipt", "content_type": 17, "codename": "delete_messagereadreceipt"}}, {"model": "auth.permission", "pk": 68, "fields": {"name": "Can view message read receipt", "content_type": 17, "codename": "view_messagereadreceipt"}}, {"model": "auth.permission", "pk": 69, "fields": {"name": "Can add user mention", "content_type": 18, "codename": "add_usermention"}}, {"model": "auth.permission", "pk": 70, "fields": {"name": "Can change user mention", "content_type": 18, "codename": "change_usermention"}}, {"model": "auth.permission", "pk": 71, "fields": {"name": "Can delete user mention", "content_type": 18, "codename": "delete_usermention"}}, {"model": "auth.permission", "pk": 72, "fields": {"name": "Can view user mention", "content_type": 18, "codename": "view_usermention"}}, {"model": "auth.permission", "pk": 73, "fields": {"name": "Can add Attendance Record", "content_type": 19, "codename": "add_attendancepunchinout"}}, {"model": "auth.permission", "pk": 74, "fields": {"name": "Can change Attendance Record", "content_type": 19, "codename": "change_attendancepunchinout"}}, {"model": "auth.permission", "pk": 75, "fields": {"name": "Can delete Attendance Record", "content_type": 19, "codename": "delete_attendancepunchinout"}}, {"model": "auth.permission", "pk": 76, "fields": {"name": "Can view Attendance Record", "content_type": 19, "codename": "view_attendancepunchinout"}}, {"model": "auth.permission", "pk": 77, "fields": {"name": "Can add attendance", "content_type": 20, "codename": "add_attendance"}}, {"model": "auth.permission", "pk": 78, "fields": {"name": "Can change attendance", "content_type": 20, "codename": "change_attendance"}}, {"model": "auth.permission", "pk": 79, "fields": {"name": "Can delete attendance", "content_type": 20, "codename": "delete_attendance"}}, {"model": "auth.permission", "pk": 80, "fields": {"name": "Can view attendance", "content_type": 20, "codename": "view_attendance"}}, {"model": "auth.permission", "pk": 81, "fields": {"name": "Can add attendance reason approval", "content_type": 21, "codename": "add_attendancereasonapproval"}}, {"model": "auth.permission", "pk": 82, "fields": {"name": "Can change attendance reason approval", "content_type": 21, "codename": "change_attendancereasonapproval"}}, {"model": "auth.permission", "pk": 83, "fields": {"name": "Can delete attendance reason approval", "content_type": 21, "codename": "delete_attendancereasonapproval"}}, {"model": "auth.permission", "pk": 84, "fields": {"name": "Can view attendance reason approval", "content_type": 21, "codename": "view_attendancereasonapproval"}}, {"model": "auth.permission", "pk": 85, "fields": {"name": "Can add attachment", "content_type": 22, "codename": "add_attachment"}}, {"model": "auth.permission", "pk": 86, "fields": {"name": "Can change attachment", "content_type": 22, "codename": "change_attachment"}}, {"model": "auth.permission", "pk": 87, "fields": {"name": "Can delete attachment", "content_type": 22, "codename": "delete_attachment"}}, {"model": "auth.permission", "pk": 88, "fields": {"name": "Can view attachment", "content_type": 22, "codename": "view_attachment"}}, {"model": "auth.permission", "pk": 89, "fields": {"name": "Can add chat group", "content_type": 23, "codename": "add_chatgroup"}}, {"model": "auth.permission", "pk": 90, "fields": {"name": "Can change chat group", "content_type": 23, "codename": "change_chatgroup"}}, {"model": "auth.permission", "pk": 91, "fields": {"name": "Can delete chat group", "content_type": 23, "codename": "delete_chatgroup"}}, {"model": "auth.permission", "pk": 92, "fields": {"name": "Can view chat group", "content_type": 23, "codename": "view_chatgroup"}}, {"model": "auth.permission", "pk": 93, "fields": {"name": "Can add user", "content_type": 24, "codename": "add_customuser"}}, {"model": "auth.permission", "pk": 94, "fields": {"name": "Can change user", "content_type": 24, "codename": "change_customuser"}}, {"model": "auth.permission", "pk": 95, "fields": {"name": "Can delete user", "content_type": 24, "codename": "delete_customuser"}}, {"model": "auth.permission", "pk": 96, "fields": {"name": "Can view user", "content_type": 24, "codename": "view_customuser"}}, {"model": "auth.permission", "pk": 97, "fields": {"name": "Can add employee profile", "content_type": 25, "codename": "add_employeeprofile"}}, {"model": "auth.permission", "pk": 98, "fields": {"name": "Can change employee profile", "content_type": 25, "codename": "change_employeeprofile"}}, {"model": "auth.permission", "pk": 99, "fields": {"name": "Can delete employee profile", "content_type": 25, "codename": "delete_employeeprofile"}}, {"model": "auth.permission", "pk": 100, "fields": {"name": "Can view employee profile", "content_type": 25, "codename": "view_employeeprofile"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$600000$psqP1ObM30oNpuwGbAXR8F$o51HaXjf2tBOx9tjrnhru7/q4BMisdK/yHhFsq1Q8UQ=", "last_login": null, "is_superuser": false, "username": "a.saishankar", "first_name": "Aedavelli", "last_name": "Sai Shankar", "email": "a.saishankar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:16.819Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 2, "fields": {"password": "pbkdf2_sha256$600000$OFjbGN4ELZGan7RvUc8W7h$uXj7XGpXswnZh8rAwJZmu0HvbSy/wlMTcS/M6rMWhsI=", "last_login": null, "is_superuser": false, "username": "shaik.khajashareff", "first_name": "Shaik", "last_name": "Khaja Shareef", "email": "shaik.khajashareff@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:18.922Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 3, "fields": {"password": "pbkdf2_sha256$600000$xMEtQkNq2C1fqLzFayjAbz$lrbqAcCc08FytQvjP8hNvEvsPSCMOPc4mDvLNvOvNDg=", "last_login": null, "is_superuser": false, "username": "reddi.prasad", "first_name": "Vootukuru", "last_name": "Reddiprasad", "email": "reddi.prasad@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:21.098Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 4, "fields": {"password": "pbkdf2_sha256$600000$x0aZHXJUTre19HCTRANHwX$KEieCOClw1Mqm7ab1pEhDY/WHqvvQl5gZeSL3CGYjrI=", "last_login": null, "is_superuser": false, "username": "kavitha", "first_name": "Kavitha", "last_name": "", "email": "kavitha@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:22.576Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 5, "fields": {"password": "pbkdf2_sha256$600000$vCAOk6lgIG7JldaeyECdMs$EYWXsMk71sMOudtDAPmbixOpbcxm+14vfXTS80I72Ek=", "last_login": null, "is_superuser": false, "username": "polireddy", "first_name": "Polireddy", "last_name": "Kukkala", "email": "polireddy@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:24.970Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 6, "fields": {"password": "pbkdf2_sha256$600000$WMaL86Is6cdnWz2hRB270J$LXaL26pxzms4osqoHpmmKotXE8f4ae/mRJQzmgZDYUU=", "last_login": null, "is_superuser": false, "username": "pradeep", "first_name": "Pathloth", "last_name": "Pradeep", "email": "pradeep@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:27.357Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 7, "fields": {"password": "pbkdf2_sha256$600000$Yt0yk3j90QjOEwTEZly0s7$Ptk6gjrxTEOkTPHxYSPXF0zoVrpJGEFFXM83PB8XByw=", "last_login": null, "is_superuser": false, "username": "devendar", "first_name": "Nenavath", "last_name": "Devender", "email": "devendar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:29.780Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 8, "fields": {"password": "pbkdf2_sha256$600000$gIKIHotF1iysNbW1GiluT1$Us/FQSHn43l/P8d4xM0CxCrn3+nyDLXOH7V9cFtyQMM=", "last_login": null, "is_superuser": false, "username": "sarvani", "first_name": "Bandi", "last_name": "Sarvani", "email": "sarvani@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:31.525Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 9, "fields": {"password": "pbkdf2_sha256$600000$U2q0HjmVawI5M4piWU4dRy$vs+9uv1CwaZ1VRuhiv5DqrC22gmvzrRPvzSqiG6Ed0k=", "last_login": null, "is_superuser": false, "username": "hazeerashaik", "first_name": "Shaik", "last_name": "Hazeera", "email": "hazeerashaik@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:33.945Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 10, "fields": {"password": "pbkdf2_sha256$600000$OyfCehRIrixVAPFzD9KcvE$CNzmO3JEooY3T7E6azMPrS0uW8abzrQlTZosbKohkj8=", "last_login": null, "is_superuser": false, "username": "nagurbabu", "first_name": "Shaik", "last_name": "Nagur Babu", "email": "nagurbabu@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:36.232Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 11, "fields": {"password": "pbkdf2_sha256$600000$5gHXpMo6SQw0iRZaLNsjWm$5xpMk+R0KOt3Sly1pTeAonw/wwk9GsYswL/dLwajUa0=", "last_login": null, "is_superuser": false, "username": "venkatarayudu", "first_name": "Miriyala", "last_name": "Venkata Rayudu", "email": "venkatarayudu@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:38.601Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 12, "fields": {"password": "pbkdf2_sha256$600000$E4nSToAkRT16bXyhHRhUqy$6bnMWlBVyyqSnOFSu+oEA3GE1WKiR42aFiUtcxDrnag=", "last_login": null, "is_superuser": false, "username": "dineshsagar", "first_name": "Kakkulla", "last_name": "Dinesh Sagar", "email": "dineshsagar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:40.874Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 13, "fields": {"password": "pbkdf2_sha256$600000$cjlAg8XeCbekonZlKVthp2$srJ2xp446cdvqCHkTUDa2IOyRX8BCMVo9wIoRe3MGaI=", "last_login": null, "is_superuser": false, "username": "venkataramanaiah", "first_name": "Venkataramanaiah", "last_name": "Pujari - T", "email": "venkataramanaiah@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:43.221Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 14, "fields": {"password": "pbkdf2_sha256$600000$ciGyI9Td4ZqRmUNo9ffY0t$NNOXgGrYUE9wMoxoNbdwfKqWNteAeYM3oh8e17vObr0=", "last_login": null, "is_superuser": false, "username": "ramya", "first_name": "Ramya", "last_name": "Yandrapalli", "email": "ramya@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:45.676Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 15, "fields": {"password": "pbkdf2_sha256$600000$YDbgYPj2jR1a7U2w05Zaif$oy4EQSL8FRu7uBpUyiMOjQ311Kdk87w+oUaqAIjR9pQ=", "last_login": null, "is_superuser": false, "username": "lakshminarayana", "first_name": "Lakshmi", "last_name": "Narayana Katari", "email": "lakshminarayana@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:47.476Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 16, "fields": {"password": "pbkdf2_sha256$600000$wQwismBWJRpElodXZIRdSI$1fjE1s6dZ/RT4jdeDEJDK+97GbKyGtfmgc2bGrso7jo=", "last_login": null, "is_superuser": false, "username": "shaik.anwar", "first_name": "Shaik", "last_name": "Anwar", "email": "shaik.anwar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:49.947Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 17, "fields": {"password": "pbkdf2_sha256$600000$bghIMpuHqG0Th52IrDPYU7$V48yPYL5PBQiTEWCaIsYfHqKivg2+n0PsShkuvhxzw0=", "last_login": null, "is_superuser": false, "username": "harshavardhan", "first_name": "Pothireddy", "last_name": "Harshavardhan Reddy", "email": "harshavardhan@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:51.918Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 18, "fields": {"password": "pbkdf2_sha256$600000$u3B18Ks0iszk2VHcharkQn$9m7jKSR5TttybGiE8SrDMlRKL321+xLuewAAMgCQJo8=", "last_login": null, "is_superuser": false, "username": "adiseshu.donthina", "first_name": "Adiseshu", "last_name": "Reddy Donthina", "email": "adiseshu.donthina@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:53.333Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 19, "fields": {"password": "pbkdf2_sha256$600000$NNsVVVFEfQKtCqcxr1N6vm$fiGXMVnBhu4xlttno0rfU2v0yIZtp5s0StyHSISsuDY=", "last_login": null, "is_superuser": false, "username": "mohanreddy", "first_name": "Mohan", "last_name": "Reddy - T", "email": "mohanreddy@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:55.512Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 20, "fields": {"password": "pbkdf2_sha256$600000$qVwDYl6WgiwmJBwm4DGRdc$7BoMmfxTkxiWpJgo0tk4P89N8FgYYIhwXjbb/kFAxe8=", "last_login": null, "is_superuser": false, "username": "giri.krishna", "first_name": "Giri", "last_name": "Krishna - BD", "email": "giri.krishna@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:57.517Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 21, "fields": {"password": "pbkdf2_sha256$600000$ysnT37vG4dUH4i571EkKKw$qglDh3scMok1xTocnUDdifu6BryjnjU0cajcobSEdGk=", "last_login": null, "is_superuser": false, "username": "jayakrishna", "first_name": "Konakala", "last_name": "Jaya Krishna", "email": "jayakrishna@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:50:59.823Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 22, "fields": {"password": "pbkdf2_sha256$600000$5Sd5O7kHZaqc0VsM38hykF$Fpib1S/syYH9NT+hwRIOJY3tqhILRZmqHBM4eqrNokU=", "last_login": null, "is_superuser": false, "username": "azharuddin", "first_name": "Syed", "last_name": "Azharuddin", "email": "azharuddin@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:02.941Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 23, "fields": {"password": "pbkdf2_sha256$600000$slyYEBsVl2bbeeHN9dsfDK$iTENaGN+eYnWuOhbuTXVljhu2+3ScoMjxky3N3z+8Y0=", "last_login": null, "is_superuser": false, "username": "nagasairam", "first_name": "Kasani", "last_name": "Naga Sai Ram", "email": "nagasairam@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:05.862Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 24, "fields": {"password": "pbkdf2_sha256$600000$w7i75cJLOfu9KkgtJdmBbi$Y8WOLlklbvEQIh3gIwALTIfBLYZhsgU6Pko0OVjUzQg=", "last_login": null, "is_superuser": false, "username": "jagadeesh", "first_name": "Katuru", "last_name": "Jagadeesh", "email": "jagadeesh@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:07.615Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 25, "fields": {"password": "pbkdf2_sha256$600000$aBalcTc9dKLkavr5qGrdBe$7EXTkwL53yzBWpoy45hbW70GPM3T71UqiMwr7cg+Du8=", "last_login": null, "is_superuser": false, "username": "sumanth", "first_name": "Indurthi", "last_name": "Sumanth  - BD", "email": "sumanth@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:09.156Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 26, "fields": {"password": "pbkdf2_sha256$600000$FjUHKSpodZhoTd6eu10g60$pOWgtmVEyDFtF17F7TBlHbGZp5KVF/Ww5fLwOo6K0mM=", "last_login": null, "is_superuser": false, "username": "venkatasubbaiah", "first_name": "Munagala", "last_name": "Venkatasubbaiah", "email": "venkatasubbaiah@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:10.913Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 27, "fields": {"password": "pbkdf2_sha256$600000$B3ByBwN7746fIL0umLynmW$GAHHVwy7Km6ZPtk3h5uclG2whl+9pujSmnEvIZU7m78=", "last_login": null, "is_superuser": false, "username": "santhosh.phani", "first_name": "Santhosh", "last_name": "Phani Krishna - T", "email": "santhosh.phani@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:12.607Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 28, "fields": {"password": "pbkdf2_sha256$600000$Zu49rLyKOxScTwM3I6wUd9$7WOa6wFAddZ21eQmtJbcpBO7dJvb1ZQ7RXq8Kqc7nLI=", "last_login": null, "is_superuser": false, "username": "mani.prakash", "first_name": "Myla", "last_name": "ManiPrakash", "email": "mani.prakash@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:14.445Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 29, "fields": {"password": "pbkdf2_sha256$600000$JtOObIs6gymxTziww8rivs$jvbfr6HnL3dzvOXyDKnmMowbwma/2mUXpM0UTAImaFU=", "last_login": null, "is_superuser": false, "username": "swati.kumari", "first_name": "Swati", "last_name": "Kumari", "email": "swati.kumari@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:18.102Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 30, "fields": {"password": "pbkdf2_sha256$600000$CWMaPIQCDraR9x4gJol745$ooBJ63jA1pzTJex8SEyGiXemNlkKjlflCOmTAxZcGEA=", "last_login": null, "is_superuser": false, "username": "vamsi.krishna", "first_name": "Bayireddy", "last_name": "Vamsi Krishna", "email": "vamsi.krishna@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:21.549Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 31, "fields": {"password": "pbkdf2_sha256$600000$sHMeEDQcwqOKDrcHJQO4dT$XXxA7mNpFwUIOCK5VxBqPL6dfx+t5vf6PWstXd9/hQE=", "last_login": null, "is_superuser": false, "username": "harsha.vardhan", "first_name": "Konduru", "last_name": "Harsha Vardhan", "email": "harsha.vardhan@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:24.338Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 32, "fields": {"password": "pbkdf2_sha256$600000$lqKONZPc9yfIppTuNgUK9C$yRO8adSykp2m+cbeUMgOjtsh8RPwWo8kzefuU8dSqNU=", "last_login": null, "is_superuser": false, "username": "geeth.kumar", "first_name": "Jalampelli", "last_name": "Geethkumar", "email": "geeth.kumar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:27.704Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 33, "fields": {"password": "pbkdf2_sha256$600000$CuYqpphwmYOGlfHiGXfa6L$VQ7LruDeZBYlMPnEokYHSjN4GAoGkfVZcdNl+Sz2/Tg=", "last_login": null, "is_superuser": false, "username": "shaik.saleem", "first_name": "Shaik", "last_name": "Saleem", "email": "shaik.saleem@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:29.998Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 34, "fields": {"password": "pbkdf2_sha256$600000$utth1M2XnxHeKtBVY4NTW6$tqKUBJPPllIM//5o7MldncvlC/XUDtdMKzodsGFO25g=", "last_login": null, "is_superuser": false, "username": "prem.kumar", "first_name": "Prem", "last_name": "Kumar", "email": "prem.kumar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:32.486Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 35, "fields": {"password": "pbkdf2_sha256$600000$lQ5vV4lLvsAN1V89oz5EXz$hEWVzZc//t1PfoGq9dMg6Ek//y0NNulnBho57PW/V6I=", "last_login": null, "is_superuser": false, "username": "soumya", "first_name": "Marka", "last_name": "Soumya", "email": "soumya@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:35.316Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 36, "fields": {"password": "pbkdf2_sha256$600000$msdRESR8Y9RKYsF28nj8EB$DjWxNbVa90bUqSXcFArFkjYixu3UVrcNF3baB3UKekU=", "last_login": null, "is_superuser": false, "username": "sai.ganesh", "first_name": "Tirakala", "last_name": "Venkata Sai Ganesh", "email": "sai.ganesh@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:37.796Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 37, "fields": {"password": "pbkdf2_sha256$600000$IVGTfZcHEEnHuN24uTKKnv$IDmEmVn7KsiPma3Q3+ClGxs+3cVwD+dCMp0EDgzxV+s=", "last_login": null, "is_superuser": false, "username": "yashvendra.kumar", "first_name": "Yashvendra", "last_name": "Kumar", "email": "yashvendra.kumar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:40.652Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 38, "fields": {"password": "pbkdf2_sha256$600000$BjUvUHI6z3yb5TeZ26m9Oh$O1NFtcbr9XjBX2cXLS8Dtactzat0uR53TciAzgalmps=", "last_login": null, "is_superuser": false, "username": "siddhu", "first_name": "Murapaka", "last_name": "Siddhu", "email": "siddhu@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:43.240Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 39, "fields": {"password": "pbkdf2_sha256$600000$8WeYICV22euVOQA31a2RMU$DH/u4/zgxKsuwQq2bdPwXBoyEbWBkqhxAERgoiqLaE0=", "last_login": null, "is_superuser": false, "username": "sanket", "first_name": "Sanket", "last_name": "Shivdas Patil", "email": "sanket@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:45.678Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 40, "fields": {"password": "pbkdf2_sha256$600000$JNasTQlVtCcREqEdbsrbjH$sJAZoRjUntWVRrgjB0HLTMIrcSTeVf1Y+j1FSq0yr/8=", "last_login": null, "is_superuser": false, "username": "nisha", "first_name": "Nisha", "last_name": "Balu Pathare", "email": "nisha@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:48.305Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 41, "fields": {"password": "pbkdf2_sha256$600000$cmhyvSAREan4r8vL9sQujS$LRfnfQSf1kCzdOpELpgzylMKc/JVwdFic918VnWO3Ic=", "last_login": null, "is_superuser": false, "username": "adesh", "first_name": "Adesh", "last_name": "Gaikwad", "email": "adesh@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:50.875Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 42, "fields": {"password": "pbkdf2_sha256$600000$fum8JwYa6t2Qv2RZIzMsvA$e3Wno3y3veqkJhp+8UxnRaBG32T9PYpAOypS78+W73M=", "last_login": null, "is_superuser": false, "username": "svapnali", "first_name": "Svapnali", "last_name": "Dattatrya Shahapure", "email": "svapnali@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:53.171Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 43, "fields": {"password": "pbkdf2_sha256$600000$Fdtrq4iqvhuFcgC1eIqEm7$hMAJw23uzZTv2SmSIZfZDu2sySFwudmNgnwLU/C4rxk=", "last_login": null, "is_superuser": false, "username": "veerendra", "first_name": "Veerendra", "last_name": "Yeleti", "email": "veerendra@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:55.417Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 44, "fields": {"password": "pbkdf2_sha256$600000$XUnzR7SV9sT3dAH8NZrJPx$UrvQ2WH9NngaPwwN/VueBgb2/vyodRnD0tUi/0NsUx4=", "last_login": null, "is_superuser": false, "username": "adnan.shaikh", "first_name": "Shaikh", "last_name": "Adnan Shakeel", "email": "adnan.shaikh@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:58.107Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 45, "fields": {"password": "pbkdf2_sha256$600000$Ugq3DSaHbQmQDyqouqO1bk$3Ky391ZKN+s1u/v+oYqOKe56vMUy8F1/lTFL8RT9ylI=", "last_login": null, "is_superuser": false, "username": "sai.naveen", "first_name": "Kola", "last_name": "Sainaveen Goud", "email": "sai.naveen@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:51:59.371Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 46, "fields": {"password": "pbkdf2_sha256$600000$8dCsPQr0tparcath0Todzj$B29Yxy1QK8f2bJOO1lsxTCd/XYrNzg+fC5QhvrxHaSM=", "last_login": null, "is_superuser": false, "username": "nagendra", "first_name": "Siddamsetti", "last_name": "NagendraBabu", "email": "nagendra@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:01.558Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 47, "fields": {"password": "pbkdf2_sha256$600000$XvZplXBSU2Y3c22xSX2A7Q$iL6AzMdEA151yscXBgjvdjiRTqsbee1sXxdgbl6M8aI=", "last_login": null, "is_superuser": false, "username": "sharim.shaikh", "first_name": "SHARIM", "last_name": "SHAIKH", "email": "sharim.shaikh@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:03.487Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 48, "fields": {"password": "pbkdf2_sha256$600000$Xq7C3Sq7sjM1oK15p5Vu8s$0sIjuwv16v5zJbM1ZtNn8lvN78DFJge6ldhyTkHwRSQ=", "last_login": null, "is_superuser": false, "username": "chandrakanta.das", "first_name": "Chandrakanta", "last_name": "Das", "email": "chandrakanta.das@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:05.516Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 49, "fields": {"password": "pbkdf2_sha256$600000$oqlHF46fAz0rsoflUj8mgs$DIRRHtj1j4vUO4lmagyUk1JplTz6fV5QqXkn824pgi0=", "last_login": null, "is_superuser": false, "username": "vamshikrishna.b", "first_name": "B.vamshi", "last_name": "krishna", "email": "vamshikrishna.b@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:08.176Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 50, "fields": {"password": "pbkdf2_sha256$600000$8IZHxik5IPrJOlQSSuRutd$6x6+RLV0tkt8PnRK29BOQEKJL2AkEU57RgZsIu0QaJc=", "last_login": null, "is_superuser": false, "username": "saimanohar", "first_name": "NUNNA", "last_name": "SAI MANOHAR", "email": "saimanohar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:11.081Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 51, "fields": {"password": "pbkdf2_sha256$600000$ZFHodwAYU7jMENlYC8tWiz$Bmi0bzcmp7NBHDpXneJkBSVb+bBpT8UEsYYF1VP4rL4=", "last_login": null, "is_superuser": false, "username": "shaik.gousebasha", "first_name": "SHAIK", "last_name": "GOUSEBASHA", "email": "shaik.gousebasha@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:13.521Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 52, "fields": {"password": "pbkdf2_sha256$600000$CD1Q9D0G07D6XZamgqJp2Z$SsKj4ZJq0sDfYmKZYWP0STCuRbs8GjsPls7pax3yiSc=", "last_login": null, "is_superuser": false, "username": "syed.doulath", "first_name": "SYED", "last_name": "DOULAT", "email": "syed.doulath@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:16.280Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 53, "fields": {"password": "pbkdf2_sha256$600000$XvaIMQZvPMaw1Ot3Quwr9R$m+bpun7WFQ4zCLQa1G7JHAeNiu2negx+fo0BfkAwo54=", "last_login": null, "is_superuser": false, "username": "aruna", "first_name": "Aruna", "last_name": "Boya", "email": "aruna@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:19.051Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 54, "fields": {"password": "pbkdf2_sha256$600000$yohlXkpnSnl1lD7cHlE6uP$UgLm72G0+Uao6LDQa3VWQM5Gx57wQmldRvvpcA7xfGw=", "last_login": null, "is_superuser": false, "username": "venkata.ganesh", "first_name": "Gandavarapu", "last_name": "Venkata Ganesh", "email": "venkata.ganesh@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:21.966Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 55, "fields": {"password": "pbkdf2_sha256$600000$auLZiMlGIsahRCi58WyBSe$eofofKJfAF3x1bg4HWz3k3nXz/tCAvYCsBz6mFZ/724=", "last_login": null, "is_superuser": false, "username": "bhargavi", "first_name": "Byrapuneni", "last_name": "Bhargavi", "email": "bhargavi@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:26.052Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 56, "fields": {"password": "pbkdf2_sha256$600000$Wheasqw5LdS1HdwUFipEhH$kaq5ALRc4DlU3wX42PRECIiCA2AN+MZZFkRK8O7nTlw=", "last_login": null, "is_superuser": false, "username": "shaik.sandhani", "first_name": "shaik", "last_name": "sandhani", "email": "shaik.sandhani@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:28.605Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 57, "fields": {"password": "pbkdf2_sha256$600000$sLYDg9cFFlJ0UfwMrWN0WD$Jdm76vYVqzjT5mTN5pQJAosl6s5pWC+OYibgSuWBKf4=", "last_login": null, "is_superuser": false, "username": "vijaya.sai", "first_name": "KADAVAKUDURU", "last_name": "VIJAYASAI", "email": "vijaya.sai@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:31.160Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 58, "fields": {"password": "pbkdf2_sha256$600000$M0853gMjoEDAgDiaipG6Hp$T+Y1XzRm2QlnWeT/ebZSjLJi26julXibnpedjMuNFn4=", "last_login": null, "is_superuser": false, "username": "kalyani", "first_name": "KALYANI", "last_name": "VODDEPALLI", "email": "kalyani@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:34.809Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 59, "fields": {"password": "pbkdf2_sha256$600000$iwBhD1rguv7N3ciqfgF342$AmT7ki5slOPjmZyoAXJnxp4oTlMgq9+kG6z9VJq3JV4=", "last_login": null, "is_superuser": false, "username": "saikiran.reddy", "first_name": "GUDURU", "last_name": "SAIKIRAN REDDY", "email": "saikiran.reddy@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:38.188Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 60, "fields": {"password": "pbkdf2_sha256$600000$4F82nUSuj66jnIakOaarHT$kLAKcPD3w8O+LCiKUklVI/af4EdYvs6f9Xgksa/rVCk=", "last_login": null, "is_superuser": false, "username": "pavankumararigela", "first_name": "ARIGELA", "last_name": "SRI RAMA DURGA PAVAN KUMAR", "email": "pavankumararigela@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:41.047Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 61, "fields": {"password": "pbkdf2_sha256$600000$IBoBkrtpHZ3YgZ90KgptEn$4nsTpf1Z/syx2eF7takZIEomCAKZl2ivOEA22v2jpz4=", "last_login": null, "is_superuser": false, "username": "mansigautam", "first_name": "Mansi", "last_name": "Gautam Kamble", "email": "mansigautam@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:43.742Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 62, "fields": {"password": "pbkdf2_sha256$600000$Unz1CbVCMX8uzRzNGHUyJs$fjevtLfG0HKVLNGUL1ljC2ololrVOFl1Xg4eeVapBOs=", "last_login": null, "is_superuser": false, "username": "greeshmanthkumar", "first_name": "Muthyala", "last_name": "Greeshmanth kumar", "email": "greeshmanthkumar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:45.842Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 63, "fields": {"password": "pbkdf2_sha256$600000$E9nMv0hiUZ9S2IMzBw2Qb5$C838SEoFdpJrYSd4GoJKyZ4r4xVKcfw/upMUGPc+3Kk=", "last_login": null, "is_superuser": false, "username": "chiruprakashreddy", "first_name": "SEELAM", "last_name": "CHIRU PRAKASH REDDY", "email": "chiruprakashreddy@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:47.406Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 64, "fields": {"password": "pbkdf2_sha256$600000$II8nDCd8f3QdaygnZg8H4m$zHh9t7qHB1zb5I1bBUU3EkaqSPEOR+uXN1FmPf/1B1w=", "last_login": null, "is_superuser": false, "username": "shubam", "first_name": "Shubham", "last_name": "Kamandar", "email": "shubam@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:49.432Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 65, "fields": {"password": "pbkdf2_sha256$600000$uDMv7JGW5FB5lMqq7bVxlH$muUs4L83CtJ/Nd1kDmp1VGt4g6uv/rJ0bC+Sv0Uygp8=", "last_login": null, "is_superuser": false, "username": "sushant", "first_name": "Sushant", "last_name": "Jagannath Kamble", "email": "sushant@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:50.841Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 66, "fields": {"password": "pbkdf2_sha256$600000$epOhDslkGNzE4w4tUzLnWy$9SehBnlrjPo9OHl1KIDmyRlHk7HzoHn5tNhQE2cT49s=", "last_login": null, "is_superuser": false, "username": "revanth.reddy", "first_name": "Dasari", "last_name": "Naga Revanth Reddy", "email": "revanth.reddy@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:53.313Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 67, "fields": {"password": "pbkdf2_sha256$600000$YFxRJX124hFez2WxNxlU7Y$GG+ZZBLOAzHdf+5u5vINtntVdzUfTt9s7a7jQqqkqho=", "last_login": null, "is_superuser": false, "username": "kiran.kumar", "first_name": "TANDRA", "last_name": "KIRANKUMAR", "email": "kiran.kumar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:55.791Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 68, "fields": {"password": "pbkdf2_sha256$600000$ob33Pavr3FyXqt8HtadfKT$w+3lKpSJGUqlHVt1lZqJo/gnI8Brz06J/9lBjpcVGXs=", "last_login": null, "is_superuser": false, "username": "raghav", "first_name": "SIMHADRI", "last_name": "TRINAGA RAGHAV", "email": "raghav@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:52:59.120Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 69, "fields": {"password": "pbkdf2_sha256$600000$eidEpMuCigsale77bfjohX$2b+7l+wRMqp3jHb2qe3DFhoU974m/WG7dXqyDgsFRsA=", "last_login": null, "is_superuser": false, "username": "gatadisanthoshi", "first_name": "GATADI", "last_name": "SANTHOSHI", "email": "gatadisanthoshi@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:01.197Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 70, "fields": {"password": "pbkdf2_sha256$600000$xqHqPncREGVHYVmWosxENi$+mLhaSQpFa+J/nPn0OSWyDDTcvFvB/fM2B4IFFWi8Cs=", "last_login": null, "is_superuser": false, "username": "mohanagopikrishna", "first_name": "DHANEKULA", "last_name": "MOHANA GOPI KRISHNA", "email": "mohanagopikrishna@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:03.829Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 71, "fields": {"password": "pbkdf2_sha256$600000$ShY6jCf3uljIy9Yv568Zov$0WmIZXoMN/IlHS7gzpwxnERhfwFYBNIsjZAEc486rNg=", "last_login": null, "is_superuser": false, "username": "harisaichandu", "first_name": "Pallipati", "last_name": "Hari Sai Chandu", "email": "harisaichandu@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:06.631Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 72, "fields": {"password": "pbkdf2_sha256$600000$kdHNEW6rZszzzPQWnkOnmT$r+YT3LW2n2gzlF28d7JnV4nUdiEW58qbj6KrAsFOpSY=", "last_login": null, "is_superuser": false, "username": "sudharsanareddybhupathi", "first_name": "Bhupathi", "last_name": "Sudharsana Reddy", "email": "sudharsanareddybhupathi@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:09.269Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 73, "fields": {"password": "pbkdf2_sha256$600000$nge0xXWjqWLCZORLs2M3pG$aQalLBCS7TjkxxOGRweKXvwd4AgY+38fJDIznWvmmQQ=", "last_login": null, "is_superuser": false, "username": "saibabamopada", "first_name": "Mopada", "last_name": "saibaba", "email": "saibabamopada@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:12.028Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 74, "fields": {"password": "pbkdf2_sha256$600000$AV5Knm8WuzinCGnsOxWctW$1uc+Fs2dSMd4/G2Ekg4kzP7tGRpfQaXiSbQlKqOOPCk=", "last_login": null, "is_superuser": false, "username": "shaiksajid", "first_name": "Shaik", "last_name": "Sajid", "email": "shaiksajid@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:15.555Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 75, "fields": {"password": "pbkdf2_sha256$600000$bKUdelSPGxUL93xWedqHdn$ql/uMNE0uue81yqpHGKC9fQt1r3WnaNYX+ThYknLmOM=", "last_login": null, "is_superuser": false, "username": "dushyanthkumarthandra", "first_name": "Thandra", "last_name": "Dushyanth kumar", "email": "dushyanthkumarthandra@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:19.375Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 76, "fields": {"password": "pbkdf2_sha256$600000$vNEyqYzQYh34qKyxg3cv0s$Bs+xBfxQtac4IAUMlp4C8l8XVibgUH5FUmd+zY7k8HY=", "last_login": null, "is_superuser": false, "username": "shravankumarreddy", "first_name": "ONGOLE", "last_name": "SHRAVAN KUMAR REDDY", "email": "shravankumarreddy@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:22.521Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 77, "fields": {"password": "pbkdf2_sha256$600000$YSo2CwVqVQbw2gPaalak0G$MpsjFMhpDXIbpURh8JhAMZ6Tgugxohq/spbxKnvJ1cM=", "last_login": null, "is_superuser": false, "username": "yogeshwarparasramnirmale", "first_name": "Yogeshwar", "last_name": "Parasram Nirmale", "email": "yogeshwarparasramnirmale@innvoatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:25.275Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 78, "fields": {"password": "pbkdf2_sha256$600000$OsvQTgGoYfEsEyzD8hG1a1$ooMzhjCqTYdxv+8OGNljwZbBT08EkzCL1HPBRLOZkjc=", "last_login": null, "is_superuser": false, "username": "hanishchandra", "first_name": "hanish", "last_name": "kolla", "email": "hanishchandra@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:27.520Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 79, "fields": {"password": "pbkdf2_sha256$600000$TJD9r4cLD4nEOUMLZ9ovjr$mBxUQzp0e7cD1D07Mnk1Xx5nVCQbtMwqSHw8UG7vw60=", "last_login": null, "is_superuser": false, "username": "raghavendar.goud", "first_name": "Raghavendra", "last_name": "Goud", "email": "raghavendar.goud@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:29.142Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 80, "fields": {"password": "pbkdf2_sha256$600000$xLhAd8tLKzQxdGJ71tEBoe$1nTPZShcbpep/+yI2Oc95tFx188LEeJzlKanGlw/bwg=", "last_login": null, "is_superuser": false, "username": "sandeep", "first_name": "Neerudu", "last_name": "Sandeep", "email": "sandeep@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:31.952Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 81, "fields": {"password": "pbkdf2_sha256$600000$Cvv7pctIYFltkQ6TGR0PpS$/slDTvPhahC4JPd7s9t4Wmyj1NBqIvqaLnIP9NzKj+o=", "last_login": null, "is_superuser": false, "username": "raja.reddy", "first_name": "Goulla", "last_name": "Raja raghavendar Reddy", "email": "raja.reddy@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:34.364Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 82, "fields": {"password": "pbkdf2_sha256$600000$Q433s3zq9VpnKMM6JFhQfw$2yIgAaUqghZM1tkO+sUa7mLfttAsslb4swOFZhYtFUo=", "last_login": null, "is_superuser": false, "username": "tirupati.reddy", "first_name": "Tirupati", "last_name": "Reddy - FD", "email": "tirupati.reddy@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:37.545Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 83, "fields": {"password": "pbkdf2_sha256$600000$oTEkoSELEiwkywehnbpUcI$cutcwbCs/bfd5s+EalrURUR/ehAPNH/v2vBbN+V/NI4=", "last_login": null, "is_superuser": false, "username": "vinod.kumar", "first_name": "Malavath", "last_name": "Vinod Kumar - BD", "email": "vinod.kumar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:40.114Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 84, "fields": {"password": "pbkdf2_sha256$600000$MGRyDLrgjZMwClgccpNgRb$SLm2UCCzHN3gIBvJh29SVekacAP6d0IqGVpJiGmmAUE=", "last_login": null, "is_superuser": false, "username": "srinivas", "first_name": "M.", "last_name": "Srinivas Goud", "email": "srinivas@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:42.623Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 85, "fields": {"password": "pbkdf2_sha256$720000$9ANgpAU02C4vazuJiDIfP5$CsfH+ZHgJ8zIQvyh+Jo5U2NiNfUNlI6BjtIWgJItVJ4=", "last_login": null, "is_superuser": false, "username": "sravanigujjula", "first_name": "Gujjula", "last_name": "Sravani", "email": "sravanigujjula@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:44.609Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 86, "fields": {"password": "pbkdf2_sha256$600000$jzWNlfY6cmtot0pJEFoIrj$FvosuEiPwwfbtStY7vVoMBgmh1PpEcjMSM2svz1x8to=", "last_login": null, "is_superuser": false, "username": "mahender.reddy", "first_name": "Mahender", "last_name": "Reddy", "email": "mahender.reddy@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:45.987Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 87, "fields": {"password": "pbkdf2_sha256$600000$jLqCcg3B2jZDkx2g0AW10w$yDMyVInYkAj613AVEU/SBgaV99n3cw169PMPxNwzcTk=", "last_login": null, "is_superuser": false, "username": "yuvrajvishnu", "first_name": "Yuvraj", "last_name": "Vishnu Khilare", "email": "yuvrajvishnu@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:47.529Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 88, "fields": {"password": "pbkdf2_sha256$600000$nztQ4ZEcl7YH22rzFASp6e$4z1yrLw8jtug9BN7DUx02iJBlxowG913ZnDcke2TQOA=", "last_login": null, "is_superuser": false, "username": "lakavathganesh", "first_name": "Lakavath", "last_name": "Ganesh", "email": "lakavathganesh@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:48.813Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 89, "fields": {"password": "pbkdf2_sha256$600000$X3qQn3c8Y8w5sFUZkBFlMP$T1jV8Maa2cCabs/YYkhhPcuJUS8OF7Sn/bHgLYULgVE=", "last_login": null, "is_superuser": false, "username": "sricharan.kuraku", "first_name": "Sricharan", "last_name": "Kuraku", "email": "sricharan.kuraku@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:50.167Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 90, "fields": {"password": "pbkdf2_sha256$600000$ciFvGNQOlQeQUX0dBwe4Ql$iZPz69oY+y1qfD4KNWZAbKFa7TT1dPAh+k5XIZByukM=", "last_login": null, "is_superuser": false, "username": "ponnala.mounika", "first_name": "Ponnala", "last_name": "Mounika", "email": "ponnala.mounika@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:51.658Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 91, "fields": {"password": "pbkdf2_sha256$600000$X1vy6tPBXYcXRwFEQnzq4S$uPICOVOiLnpUAYVevi3bJn2v8cDUghQXO9bZghWbix8=", "last_login": null, "is_superuser": false, "username": "syed.mastanvali", "first_name": "Syed", "last_name": "Mastanvali", "email": "syed.mastanvali@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:52.865Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 92, "fields": {"password": "pbkdf2_sha256$720000$FKTXICGG3NDlSKBp274EQj$HvFDhbljxYF3sK4/PV7RfrMp7wXC3ggORR++PJDtIXE=", "last_login": null, "is_superuser": false, "username": "ratna.kumar", "first_name": "Ratna", "last_name": "Kumar", "email": "ratna.kumar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:54.133Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 93, "fields": {"password": "pbkdf2_sha256$600000$N7VdKtzL9BVkE2oaGR6ct1$e+hH4Hhtsv6vXjkQ0ohMtELxbE0r9VE7jz/nJlS+xYw=", "last_login": null, "is_superuser": false, "username": "p.ajaykumar", "first_name": "Purugula", "last_name": "Ajay Kumar", "email": "p.ajaykumar@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:55.948Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 94, "fields": {"password": "pbkdf2_sha256$720000$pyCD8wpP5Spm5Ab2N7Htud$sZMMkzeORTyXPi7RFnjvrGyGO66AEB3YZchjAHr47fI=", "last_login": null, "is_superuser": false, "username": "suresh.goud", "first_name": "Suresh", "last_name": "Goud", "email": "suresh.goud@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:58.031Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 95, "fields": {"password": "pbkdf2_sha256$600000$iTC3cLmfAh4MygniN3atux$jPga/LK+1TXoQ/4KV+PAahCBfSY8aHLmT086bSUsC6U=", "last_login": null, "is_superuser": false, "username": "kanna.venkatarao", "first_name": "Kanna", "last_name": "Venkatarao", "email": "kanna.venkatarao@innovatorstech.com", "is_staff": false, "is_active": true, "date_joined": "2025-07-08T06:53:59.913Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 96, "fields": {"password": "pbkdf2_sha256$600000$JoDsgJvEKbCFGlWD87Qx1j$UXJfjfJNT6Kx+pCU8n7CyGbTdByVAvS9VKDDfmskklM=", "last_login": null, "is_superuser": true, "username": "venkateswararao.garikapati", "first_name": "Garikapati", "last_name": "Venkateswara Rao", "email": "venkateswararao.garikapati@innovatorstech.com", "is_staff": true, "is_active": true, "date_joined": "2025-07-08T06:54:01.639Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 97, "fields": {"password": "pbkdf2_sha256$600000$kbxXADRwufFYjtwRowPW20$y+XuhkjEq4Oymk+l6Ma1fYp599pIpbr4cLbIZaFhEzs=", "last_login": null, "is_superuser": true, "username": "admin", "first_name": "Admin", "last_name": "", "email": "admin@innovatorstechsolutions.com", "is_staff": true, "is_active": true, "date_joined": "2025-07-09T11:03:58.839Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 98, "fields": {"password": "pbkdf2_sha256$600000$rdtoA9XtDHU6FAS9RwtCVR$t23kNr3PrzEZMl5SkeCTQr/QlJJIDf95Kz7X2b4Q2c0=", "last_login": null, "is_superuser": true, "username": "maheswar.reddy", "first_name": "SURAM", "last_name": "MAHESWAR REDDY", "email": "maheswar.reddy@innovatorstech.com", "is_staff": true, "is_active": true, "date_joined": "2025-07-09T11:04:01.931Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 99, "fields": {"password": "pbkdf2_sha256$600000$yabPl8km3tMPTfGKxTMWGu$pFc14fcNudHCHmDcoJqYsfAp5g0B5ylkVnOe06SGJks=", "last_login": null, "is_superuser": true, "username": "hr", "first_name": "HR", "last_name": "", "email": "hr@innovatorstech.com", "is_staff": true, "is_active": true, "date_joined": "2025-07-09T11:04:04.668Z", "groups": [], "user_permissions": []}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "attendance", "model": "employee"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "attendance", "model": "attendancelog"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "attendance", "model": "lateloginreason"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "attendance", "model": "dailyworkreport"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "attendance", "model": "adminreply"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "attendance", "model": "chatroom"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"app_label": "attendance", "model": "message"}}, {"model": "contenttypes.contenttype", "pk": 14, "fields": {"app_label": "attendance", "model": "userstatus"}}, {"model": "contenttypes.contenttype", "pk": 15, "fields": {"app_label": "attendance", "model": "punchinout"}}, {"model": "contenttypes.contenttype", "pk": 16, "fields": {"app_label": "attendance", "model": "passwordresettoken"}}, {"model": "contenttypes.contenttype", "pk": 17, "fields": {"app_label": "attendance", "model": "messagereadreceipt"}}, {"model": "contenttypes.contenttype", "pk": 18, "fields": {"app_label": "attendance", "model": "usermention"}}, {"model": "contenttypes.contenttype", "pk": 19, "fields": {"app_label": "attendance", "model": "attendancepunchinout"}}, {"model": "contenttypes.contenttype", "pk": 20, "fields": {"app_label": "attendance", "model": "attendance"}}, {"model": "contenttypes.contenttype", "pk": 21, "fields": {"app_label": "attendance", "model": "attendancereasonapproval"}}, {"model": "contenttypes.contenttype", "pk": 22, "fields": {"app_label": "attendance", "model": "attachment"}}, {"model": "contenttypes.contenttype", "pk": 23, "fields": {"app_label": "attendance", "model": "chatgroup"}}, {"model": "contenttypes.contenttype", "pk": 24, "fields": {"app_label": "attendance", "model": "customuser"}}, {"model": "contenttypes.contenttype", "pk": 25, "fields": {"app_label": "attendance", "model": "employeeprofile"}}
+[
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 33,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-31",
+      "work_details": "My todays report",
+      "status": "sent",
+      "created_at": "2025-07-31T08:17:38.465Z",
+      "updated_at": "2025-07-31T08:18:01.987Z",
+      "admin_reply": "I have received",
+      "replied_at": "2025-07-31T08:18:01.987Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 31,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-22",
+      "work_details": "daily report today",
+      "status": "sent",
+      "created_at": "2025-07-22T07:35:07.995Z",
+      "updated_at": "2025-07-22T07:35:27.382Z",
+      "admin_reply": "receivedd",
+      "replied_at": "2025-07-22T07:35:27.382Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 32,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-22",
+      "work_details": "My daily report",
+      "status": "sent",
+      "created_at": "2025-07-22T10:47:18.539Z",
+      "updated_at": "2025-07-22T10:50:27.184Z",
+      "admin_reply": "late",
+      "replied_at": "2025-07-22T10:50:27.183Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 30,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-21",
+      "work_details": "report",
+      "status": "sent",
+      "created_at": "2025-07-21T17:02:51.384Z",
+      "updated_at": "2025-07-21T17:03:58.479Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-21T17:03:58.479Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 29,
+    "fields": {
+      "user": 8,
+      "date": "2025-07-18",
+      "work_details": "HHH my report",
+      "status": "sent",
+      "created_at": "2025-07-18T06:24:57.074Z",
+      "updated_at": "2025-07-18T06:25:45.145Z",
+      "admin_reply": "report received",
+      "replied_at": "2025-07-18T06:25:45.145Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 28,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-18",
+      "work_details": "Today report",
+      "status": "sent",
+      "created_at": "2025-07-18T06:08:28.638Z",
+      "updated_at": "2025-07-18T06:15:39.130Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 27,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-18",
+      "work_details": "today report",
+      "status": "sent",
+      "created_at": "2025-07-18T04:57:40.748Z",
+      "updated_at": "2025-07-18T05:07:11.236Z",
+      "admin_reply": "i have received",
+      "replied_at": "2025-07-18T05:07:11.236Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 26,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-18",
+      "work_details": "my daily report",
+      "status": "sent",
+      "created_at": "2025-07-18T04:35:59.616Z",
+      "updated_at": "2025-07-18T04:36:59.734Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-18T04:36:59.734Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 21,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-17",
+      "work_details": "report",
+      "status": "sent",
+      "created_at": "2025-07-17T06:18:05.168Z",
+      "updated_at": "2025-07-17T06:18:05.168Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 19,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-17",
+      "work_details": "My daily report",
+      "status": "sent",
+      "created_at": "2025-07-17T04:53:54.281Z",
+      "updated_at": "2025-07-17T04:53:54.281Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 20,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-17",
+      "work_details": "report",
+      "status": "sent",
+      "created_at": "2025-07-17T05:21:12.370Z",
+      "updated_at": "2025-07-17T05:21:12.370Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 25,
+    "fields": {
+      "user": 55,
+      "date": "2025-07-17",
+      "work_details": "my report",
+      "status": "sent",
+      "created_at": "2025-07-17T12:38:29.667Z",
+      "updated_at": "2025-07-17T12:38:52.367Z",
+      "admin_reply": "recived",
+      "replied_at": "2025-07-17T12:38:52.367Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 24,
+    "fields": {
+      "user": 97,
+      "date": "2025-07-17",
+      "work_details": "my today report",
+      "status": "sent",
+      "created_at": "2025-07-17T12:26:43.995Z",
+      "updated_at": "2025-07-17T12:27:14.848Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-17T12:27:14.848Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 23,
+    "fields": {
+      "user": 8,
+      "date": "2025-07-17",
+      "work_details": "my report",
+      "status": "sent",
+      "created_at": "2025-07-17T12:07:29.197Z",
+      "updated_at": "2025-07-17T12:07:51.253Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 22,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-17",
+      "work_details": "my report",
+      "status": "sent",
+      "created_at": "2025-07-17T11:50:26.628Z",
+      "updated_at": "2025-07-17T11:51:49.711Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 17,
+    "fields": {
+      "user": 97,
+      "date": "2025-07-16",
+      "work_details": "my daily report is here",
+      "status": "sent",
+      "created_at": "2025-07-16T06:43:50.779Z",
+      "updated_at": "2025-07-16T06:43:50.779Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 15,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-16",
+      "work_details": "my daily report",
+      "status": "sent",
+      "created_at": "2025-07-16T05:32:03.937Z",
+      "updated_at": "2025-07-16T05:32:03.937Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 16,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-16",
+      "work_details": "my daily report",
+      "status": "sent",
+      "created_at": "2025-07-16T05:39:13.060Z",
+      "updated_at": "2025-07-16T05:39:13.060Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 18,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-16",
+      "work_details": "my daily report",
+      "status": "sent",
+      "created_at": "2025-07-16T10:31:18.678Z",
+      "updated_at": "2025-07-16T10:31:18.678Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 13,
+    "fields": {
+      "user": 19,
+      "date": "2025-07-15",
+      "work_details": "report 1",
+      "status": "sent",
+      "created_at": "2025-07-15T07:32:46.182Z",
+      "updated_at": "2025-07-15T07:33:14.061Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-15T07:33:14.060Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 14,
+    "fields": {
+      "user": 21,
+      "date": "2025-07-15",
+      "work_details": "JAYSHAKAR",
+      "status": "sent",
+      "created_at": "2025-07-15T07:38:52.460Z",
+      "updated_at": "2025-07-15T07:39:29.452Z",
+      "admin_reply": "recievd",
+      "replied_at": "2025-07-15T07:39:29.450Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 11,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-14",
+      "work_details": "today",
+      "status": "sent",
+      "created_at": "2025-07-14T18:38:45.883Z",
+      "updated_at": "2025-07-14T18:49:31.664Z",
+      "admin_reply": "okkk",
+      "replied_at": "2025-07-14T18:49:31.663Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 12,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-14",
+      "work_details": "got it",
+      "status": "sent",
+      "created_at": "2025-07-14T18:48:42.969Z",
+      "updated_at": "2025-07-14T18:48:42.969Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 10,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-14",
+      "work_details": "daily report",
+      "status": "sent",
+      "created_at": "2025-07-14T08:34:29.322Z",
+      "updated_at": "2025-07-14T08:35:28.858Z",
+      "admin_reply": "i received report",
+      "replied_at": "2025-07-14T08:35:28.850Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 8,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-13",
+      "work_details": "today report",
+      "status": "sent",
+      "created_at": "2025-07-13T11:21:27.900Z",
+      "updated_at": "2025-07-13T11:23:24.322Z",
+      "admin_reply": "got it",
+      "replied_at": "2025-07-13T11:23:24.317Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 9,
+    "fields": {
+      "user": 89,
+      "date": "2025-07-13",
+      "work_details": "daily report",
+      "status": "sent",
+      "created_at": "2025-07-13T12:12:11.750Z",
+      "updated_at": "2025-07-13T12:12:40.957Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-13T12:12:40.947Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 4,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-11",
+      "work_details": "hiii",
+      "status": "sent",
+      "created_at": "2025-07-11T04:10:58.795Z",
+      "updated_at": "2025-07-11T04:10:58.795Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 7,
+    "fields": {
+      "user": 12,
+      "date": "2025-07-11",
+      "work_details": "hello",
+      "status": "sent",
+      "created_at": "2025-07-11T18:07:16.221Z",
+      "updated_at": "2025-07-11T18:07:16.221Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 5,
+    "fields": {
+      "user": 96,
+      "date": "2025-07-11",
+      "work_details": "report",
+      "status": "sent",
+      "created_at": "2025-07-11T05:35:23.769Z",
+      "updated_at": "2025-07-11T17:48:57.869Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-11T17:48:57.868Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 6,
+    "fields": {
+      "user": 14,
+      "date": "2025-07-11",
+      "work_details": "report by me",
+      "status": "sent",
+      "created_at": "2025-07-11T17:37:16.135Z",
+      "updated_at": "2025-07-11T17:40:17.824Z",
+      "admin_reply": "need to check",
+      "replied_at": "2025-07-11T17:40:17.822Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 3,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-11",
+      "work_details": "hii",
+      "status": "sent",
+      "created_at": "2025-07-11T03:59:21.331Z",
+      "updated_at": "2025-07-11T03:59:21.331Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-10",
+      "work_details": "hii",
+      "status": "sent",
+      "created_at": "2025-07-10T07:24:50.079Z",
+      "updated_at": "2025-07-10T07:24:50.079Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-08",
+      "work_details": "test",
+      "status": "sent",
+      "created_at": "2025-07-08T10:25:43.177Z",
+      "updated_at": "2025-07-08T10:25:43.177Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.passwordresettoken",
+    "pk": 10,
+    "fields": {
+      "user": 53,
+      "token": "r9sdAzoNalzE5hF332R4LiJTUSuUUmheIUkzTbKQs9HrafDX",
+      "created_at": "2025-07-18T07:58:48.057Z",
+      "is_used": false,
+      "expires_at": "2025-07-19T07:58:48.057Z"
+    }
+  },
+  {
+    "model": "attendance.passwordresettoken",
+    "pk": 13,
+    "fields": {
+      "user": 83,
+      "token": "AEV3nPuecPewaWzkZaHAMMlkZ6Fs4X8npuMGyxkxFw834qdM",
+      "created_at": "2025-07-22T07:31:19.652Z",
+      "is_used": true,
+      "expires_at": "2025-07-23T07:31:19.651Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 6,
+    "fields": {
+      "report": 28,
+      "admin": 96,
+      "message": "received",
+      "is_read": false,
+      "created_at": "2025-07-18T06:15:39.125Z",
+      "updated_at": "2025-07-18T06:15:39.125Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 5,
+    "fields": {
+      "report": 28,
+      "admin": 96,
+      "message": "hello",
+      "is_read": false,
+      "created_at": "2025-07-18T06:13:15.037Z",
+      "updated_at": "2025-07-18T06:13:15.037Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 4,
+    "fields": {
+      "report": 28,
+      "admin": 96,
+      "message": "admin reply",
+      "is_read": false,
+      "created_at": "2025-07-18T06:09:47.237Z",
+      "updated_at": "2025-07-18T06:09:47.237Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 3,
+    "fields": {
+      "report": 23,
+      "admin": 96,
+      "message": "received",
+      "is_read": false,
+      "created_at": "2025-07-17T12:07:51.237Z",
+      "updated_at": "2025-07-17T12:07:51.237Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 2,
+    "fields": {
+      "report": 22,
+      "admin": 96,
+      "message": "you are late",
+      "is_read": false,
+      "created_at": "2025-07-17T11:51:49.704Z",
+      "updated_at": "2025-07-17T11:51:49.704Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 1,
+    "fields": {
+      "report": 22,
+      "admin": 96,
+      "message": "received",
+      "is_read": false,
+      "created_at": "2025-07-17T11:50:54.428Z",
+      "updated_at": "2025-07-17T11:50:54.428Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 1,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T03:57:31.662Z",
+      "punch_out": "2025-07-11T03:58:08.486Z",
+      "punch_in_time": "03:57 AM",
+      "punch_out_time": "09:28 AM",
+      "is_late": false,
+      "punch_in_reason": "test",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Left Early",
+      "hours_worked": "0h 0m",
+      "created_at": "2025-07-11T03:57:31.671Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 2,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T04:07:41.403Z",
+      "punch_out": "2025-07-11T04:09:28.879Z",
+      "punch_in_time": "04:07 AM",
+      "punch_out_time": "09:39 AM",
+      "is_late": false,
+      "punch_in_reason": "late",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Left Early",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-11T04:07:41.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 3,
+    "fields": {
+      "user": 85,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T04:35:47.197Z",
+      "punch_out": "2025-07-11T04:36:03.350Z",
+      "punch_in_time": "04:35 AM",
+      "punch_out_time": "10:06 AM",
+      "is_late": false,
+      "punch_in_reason": "hii",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Left Early",
+      "hours_worked": "0h 0m",
+      "created_at": "2025-07-11T04:35:47.205Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 4,
+    "fields": {
+      "user": 94,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T05:33:07.803Z",
+      "punch_out": "2025-07-11T05:34:09.349Z",
+      "punch_in_time": "05:33 AM",
+      "punch_out_time": "11:04 AM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Left Early",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-11T05:33:07.816Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 5,
+    "fields": {
+      "user": 14,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T17:34:44.150Z",
+      "punch_out": "2025-07-11T17:36:25.112Z",
+      "punch_in_time": "05:34 PM",
+      "punch_out_time": "11:06 PM",
+      "is_late": false,
+      "punch_in_reason": "",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Full Day",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-11T17:34:44.160Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 6,
+    "fields": {
+      "user": 13,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T17:41:57.316Z",
+      "punch_out": null,
+      "punch_in_time": "11:11 PM",
+      "punch_out_time": "",
+      "is_late": false,
+      "punch_in_reason": "hello",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Late",
+      "hours_worked": "0h 0m",
+      "created_at": "2025-07-11T17:41:57.324Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 7,
+    "fields": {
+      "user": 96,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T17:43:52.280Z",
+      "punch_out": "2025-07-11T17:44:52.834Z",
+      "punch_in_time": "05:43 PM",
+      "punch_out_time": "11:14 PM",
+      "is_late": false,
+      "punch_in_reason": "",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Full Day",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-11T17:43:52.283Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 8,
+    "fields": {
+      "user": 12,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T17:56:04.581Z",
+      "punch_out": "2025-07-11T18:05:00.572Z",
+      "punch_in_time": "05:56 PM",
+      "punch_out_time": "11:35 PM",
+      "is_late": false,
+      "punch_in_reason": "",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Full Day",
+      "hours_worked": "0h 8m",
+      "created_at": "2025-07-11T17:56:04.597Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 9,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-12",
+      "punch_in": "2025-07-11T18:36:23.183Z",
+      "punch_out": "2025-07-11T18:36:47.934Z",
+      "punch_in_time": "06:36 PM",
+      "punch_out_time": "12:06 AM",
+      "is_late": false,
+      "punch_in_reason": "hh",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Left Early",
+      "hours_worked": "0h 0m",
+      "created_at": "2025-07-11T18:36:23.187Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 11,
+    "fields": {
+      "user": 89,
+      "date": "2025-07-13",
+      "punch_in": "2025-07-13T12:04:16.764Z",
+      "punch_out": "2025-07-13T12:11:10.135Z",
+      "punch_in_time": "05:34 PM",
+      "punch_out_time": "05:41 PM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 6m",
+      "created_at": "2025-07-13T12:04:16.790Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 12,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-13",
+      "punch_in": "2025-07-13T12:15:43.633Z",
+      "punch_out": "2025-07-13T12:20:17.232Z",
+      "punch_in_time": "05:45 PM",
+      "punch_out_time": "05:50 PM",
+      "is_late": false,
+      "punch_in_reason": "RRR",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 4m",
+      "created_at": "2025-07-13T12:15:43.640Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 13,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-14",
+      "punch_in": "2025-07-14T08:30:01.162Z",
+      "punch_out": "2025-07-14T08:35:52.941Z",
+      "punch_in_time": "02:00 PM",
+      "punch_out_time": "02:05 PM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 5m",
+      "created_at": "2025-07-14T08:30:01.173Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 14,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-14T18:34:58.092Z",
+      "punch_out": "2025-07-14T18:36:21.538Z",
+      "punch_in_time": "12:04 AM",
+      "punch_out_time": "12:06 AM",
+      "is_late": false,
+      "punch_in_reason": "vv",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-14T18:34:58.095Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 15,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-14T18:36:56.827Z",
+      "punch_out": "2025-07-14T18:39:35.641Z",
+      "punch_in_time": "12:06 AM",
+      "punch_out_time": "12:09 AM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-14T18:36:56.830Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 16,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-14T18:47:46.679Z",
+      "punch_out": "2025-07-14T18:50:06.140Z",
+      "punch_in_time": "12:17 AM",
+      "punch_out_time": "12:20 AM",
+      "is_late": false,
+      "punch_in_reason": "gggggg",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-14T18:47:46.682Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 17,
+    "fields": {
+      "user": 19,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-15T07:31:09.584Z",
+      "punch_out": "2025-07-15T07:33:56.559Z",
+      "punch_in_time": "01:01 PM",
+      "punch_out_time": "01:03 PM",
+      "is_late": false,
+      "punch_in_reason": "demmm",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-15T07:31:09.587Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 18,
+    "fields": {
+      "user": 21,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-15T07:37:03.667Z",
+      "punch_out": "2025-07-15T07:39:49.605Z",
+      "punch_in_time": "01:07 PM",
+      "punch_out_time": "01:09 PM",
+      "is_late": false,
+      "punch_in_reason": "JAY",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-15T07:37:03.674Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 19,
+    "fields": {
+      "user": 10,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-15T09:41:39.388Z",
+      "punch_out": "2025-07-15T09:51:00.032Z",
+      "punch_in_time": "03:11 PM",
+      "punch_out_time": "03:21 PM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 9m",
+      "created_at": "2025-07-15T09:41:39.399Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 25,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T05:13:24.665Z",
+      "punch_out": "2025-07-17T05:22:14.689Z",
+      "punch_in_time": "10:43 AM",
+      "punch_out_time": "10:52 AM",
+      "is_late": false,
+      "punch_in_reason": "i'm late",
+      "punch_out_reason": "late",
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 8m",
+      "created_at": "2025-07-17T05:13:24.671Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 20,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-16",
+      "punch_in": "2025-07-16T05:18:56.355Z",
+      "punch_out": "2025-07-16T05:25:22.776Z",
+      "punch_in_time": "10:48 AM",
+      "punch_out_time": "10:55 AM",
+      "is_late": false,
+      "punch_in_reason": "I'm late due to the traffic and rain is heavy all roads are blocked no way to pass it",
+      "punch_out_reason": "I'm going to home due to personal issue",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 6m",
+      "created_at": "2025-07-16T05:18:56.359Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 26,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T06:16:29.745Z",
+      "punch_out": "2025-07-17T06:19:12.307Z",
+      "punch_in_time": "11:46 AM",
+      "punch_out_time": "11:49 AM",
+      "is_late": false,
+      "punch_in_reason": "late aruna",
+      "punch_out_reason": "early",
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-17T06:16:29.754Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 21,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-16",
+      "punch_in": "2025-07-16T05:36:02.871Z",
+      "punch_out": "2025-07-16T05:41:10.835Z",
+      "punch_in_time": "11:06 AM",
+      "punch_out_time": "11:11 AM",
+      "is_late": false,
+      "punch_in_reason": "I'm here for work",
+      "punch_out_reason": "going out",
+      "punch_in_reason_status": "rejected",
+      "punch_out_reason_status": "rejected",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 5m",
+      "created_at": "2025-07-16T05:36:02.874Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 22,
+    "fields": {
+      "user": 97,
+      "date": "2025-07-16",
+      "punch_in": "2025-07-16T06:42:14.610Z",
+      "punch_out": "2025-07-16T06:44:35.071Z",
+      "punch_in_time": "12:12 PM",
+      "punch_out_time": "12:14 PM",
+      "is_late": false,
+      "punch_in_reason": "Early in the morning i was late",
+      "punch_out_reason": "going early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "rejected",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-16T06:42:14.620Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 27,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T11:44:53.152Z",
+      "punch_out": "2025-07-17T11:48:17.533Z",
+      "punch_in_time": "05:14 PM",
+      "punch_out_time": "05:18 PM",
+      "is_late": false,
+      "punch_in_reason": "Sai late",
+      "punch_out_reason": "sai early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 3m",
+      "created_at": "2025-07-17T11:44:53.158Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 23,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-16",
+      "punch_in": "2025-07-16T10:25:01.251Z",
+      "punch_out": "2025-07-16T10:28:47.741Z",
+      "punch_in_time": "03:55 PM",
+      "punch_out_time": "03:58 PM",
+      "is_late": false,
+      "punch_in_reason": "i'm late",
+      "punch_out_reason": "i'm going out",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 3m",
+      "created_at": "2025-07-16T10:25:01.263Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 24,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T04:44:55.706Z",
+      "punch_out": "2025-07-17T04:49:08.674Z",
+      "punch_in_time": "10:14 AM",
+      "punch_out_time": "10:19 AM",
+      "is_late": false,
+      "punch_in_reason": "i'm late to the office",
+      "punch_out_reason": "early",
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 4m",
+      "created_at": "2025-07-17T04:44:55.717Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 33,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-18",
+      "punch_in": "2025-07-18T06:07:08.343Z",
+      "punch_out": "2025-07-18T06:11:50.491Z",
+      "punch_in_time": "11:37 AM",
+      "punch_out_time": "11:41 AM",
+      "is_late": false,
+      "punch_in_reason": "hii",
+      "punch_out_reason": "early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 4m",
+      "created_at": "2025-07-18T06:07:08.351Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 28,
+    "fields": {
+      "user": 8,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T12:03:50.510Z",
+      "punch_out": "2025-07-17T12:06:15.503Z",
+      "punch_in_time": "05:33 PM",
+      "punch_out_time": "05:36 PM",
+      "is_late": false,
+      "punch_in_reason": "bandi late",
+      "punch_out_reason": "bandi early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-17T12:03:50.521Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 38,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-31",
+      "punch_in": "2025-07-31T05:19:22.803Z",
+      "punch_out": "2025-07-31T07:15:49.962Z",
+      "punch_in_time": "10:49 AM",
+      "punch_out_time": "12:45 PM",
+      "is_late": false,
+      "punch_in_reason": "I'm late",
+      "punch_out_reason": "e",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "1h 56m",
+      "created_at": "2025-07-31T05:19:22.810Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 29,
+    "fields": {
+      "user": 97,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T12:25:53.569Z",
+      "punch_out": "2025-07-17T12:27:44.335Z",
+      "punch_in_time": "05:55 PM",
+      "punch_out_time": "05:57 PM",
+      "is_late": false,
+      "punch_in_reason": "admin late",
+      "punch_out_reason": "admin early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-17T12:25:53.578Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 34,
+    "fields": {
+      "user": 8,
+      "date": "2025-07-18",
+      "punch_in": "2025-07-18T06:23:27.235Z",
+      "punch_out": "2025-07-18T06:26:24.899Z",
+      "punch_in_time": "11:53 AM",
+      "punch_out_time": "11:56 AM",
+      "is_late": false,
+      "punch_in_reason": "Hi bandi",
+      "punch_out_reason": "bye",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-18T06:23:27.238Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 30,
+    "fields": {
+      "user": 55,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T12:33:46.636Z",
+      "punch_out": "2025-07-17T12:36:21.350Z",
+      "punch_in_time": "06:03 PM",
+      "punch_out_time": "06:06 PM",
+      "is_late": false,
+      "punch_in_reason": "bargavi late",
+      "punch_out_reason": "early going",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-17T12:33:46.644Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 31,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-18",
+      "punch_in": "2025-07-18T04:33:58.910Z",
+      "punch_out": "2025-07-18T04:35:28.354Z",
+      "punch_in_time": "10:03 AM",
+      "punch_out_time": "10:05 AM",
+      "is_late": false,
+      "punch_in_reason": "I'm late vinod",
+      "punch_out_reason": "going early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-18T04:33:58.913Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 35,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-21",
+      "punch_in": "2025-07-21T16:58:59.207Z",
+      "punch_out": "2025-07-21T17:04:37.111Z",
+      "punch_in_time": "10:28 PM",
+      "punch_out_time": "10:34 PM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": "late",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 5m",
+      "created_at": "2025-07-21T16:58:59.220Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 32,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-18",
+      "punch_in": "2025-07-18T04:55:07.470Z",
+      "punch_out": "2025-07-18T04:56:25.415Z",
+      "punch_in_time": "10:25 AM",
+      "punch_out_time": "10:26 AM",
+      "is_late": false,
+      "punch_in_reason": "late to the office",
+      "punch_out_reason": "going early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-18T04:55:07.473Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 36,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-22",
+      "punch_in": "2025-07-22T07:33:57.120Z",
+      "punch_out": "2025-07-22T07:36:15.784Z",
+      "punch_in_time": "01:03 PM",
+      "punch_out_time": "01:06 PM",
+      "is_late": false,
+      "punch_in_reason": "late adesh",
+      "punch_out_reason": "going early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-22T07:33:57.135Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 37,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-22",
+      "punch_in": "2025-07-22T10:45:24.358Z",
+      "punch_out": "2025-07-22T10:48:32.142Z",
+      "punch_in_time": "04:15 PM",
+      "punch_out_time": "04:18 PM",
+      "is_late": false,
+      "punch_in_reason": "hi",
+      "punch_out_reason": "going out",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "rejected",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 3m",
+      "created_at": "2025-07-22T10:45:24.369Z"
+    }
+  }
+]
