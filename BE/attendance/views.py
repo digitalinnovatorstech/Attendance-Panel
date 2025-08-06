@@ -106,26 +106,21 @@ class CustomTokenObtainPairView(TokenObtainPairView):
     def post(self, request, *args, **kwargs):
         logger.info(f"Login attempt with data: {request.data}")
         email = request.data.get('email')
-        default_password =request.data.get("password") #'Pass@123'  # Default password for all users
+        default_password = request.data.get("password")
         
         if not email:
             logger.error("No email provided in request")
             return Response({"error": "Email is required"}, status=status.HTTP_400_BAD_REQUEST)
         
-        # Try to get the user by email
         User = get_user_model()
         try:
             user = User.objects.get(email=email)
             
-            # If user exists but authentication fails, update password to default
             if not user.check_password(default_password):
-               # user.set_password(default_password)
                 return Response({"error": "Invalid Password"}, status=status.HTTP_400_BAD_REQUEST)
-                user.save()
-                logger.info(f"Password reset to default for user: {email}")
             
-            # Now authenticate with default password
-            user = authenticate(request, username=email, password=default_password)
+            # ✅ Use correct username for authentication
+            user = authenticate(request, username=user.username, password=default_password)
             
             if user is not None:
                 refresh = RefreshToken.for_user(user)
@@ -139,11 +134,11 @@ class CustomTokenObtainPairView(TokenObtainPairView):
                         'name': user.get_full_name()
                     }
                 })
-            
+
         except User.DoesNotExist:
             logger.warning(f"User not found: {email}")
             return Response({"error": "User not found"}, status=status.HTTP_404_NOT_FOUND)
-        
+
         logger.warning(f"Login failed for email: {email}")
         return Response({"error": "Login failed"}, status=status.HTTP_401_UNAUTHORIZED)
 
