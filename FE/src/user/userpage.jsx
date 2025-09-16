@@ -268,7 +268,7 @@ const AttendanceCard = () => {
           return;
         }
 
-        const response = await fetch("http://localhost:8000/api/auth/me/", {
+        const response = await fetch("http://18.60.123.233:8000/api/auth/me/", {
           headers: {
             Authorization: `Bearer ${token}`,
             "Content-Type": "application/json",
@@ -390,7 +390,7 @@ const AttendanceCard = () => {
     try {
       const token = localStorage.getItem("access_token");
       const response = await fetch(
-        "http://localhost:8000/api/late-login-reasons/",
+        "http://18.60.123.233:8000/api/late-login-reasons/",
         {
           headers: {
             "Content-Type": "application/json",
@@ -439,7 +439,7 @@ const AttendanceCard = () => {
   //   try {
   //     const token = localStorage.getItem("access_token");
   //     const response = await fetch(
-  //       "http://localhost:8000/api/late-login-reasons/",
+  //       "http://18.60.123.233:8000/api/late-login-reasons/",
   //       {
   //         method: "POST",
   //         headers: {
@@ -474,7 +474,7 @@ const AttendanceCard = () => {
         date: formattedDate,
       };
       const response = await fetch(
-        "http://localhost:8000/api/daily-work-reports/",
+        "http://18.60.123.233:8000/api/daily-work-reports/",
         {
           method: "POST",
           headers: {
@@ -613,7 +613,7 @@ const AttendanceCard = () => {
       }
 
       const response = await fetch(
-        `http://localhost:8000/api/attendance/punch-records/${employeeId}/`,
+        `http://18.60.123.233:8000/api/attendance/punch-records/${employeeId}/`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -731,7 +731,7 @@ const AttendanceCard = () => {
         }
 
         const response = await fetch(
-          `http://localhost:8000/api/attendance/punch-records/${employeeId}/`,
+          `http://18.60.123.233:8000/api/attendance/punch-records/${employeeId}/`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -879,7 +879,7 @@ const AttendanceCard = () => {
         if (!token) return;
 
         const profileResponse = await fetch(
-          "http://localhost:8000/api/auth/me/",
+          "http://18.60.123.233:8000/api/auth/me/",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -896,7 +896,7 @@ const AttendanceCard = () => {
         if (!employeeId) return;
 
         const response = await fetch(
-          `http://localhost:8000/api/attendance/punch-records/${employeeId}/`,
+          `http://18.60.123.233:8000/api/attendance/punch-records/${employeeId}/`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -978,7 +978,7 @@ const AttendanceCard = () => {
 
       const token = localStorage.getItem("access_token");
       const response = await fetch(
-        `http://localhost:8000/api/attendance/punch-records/${employeeId}/`,
+        `http://18.60.123.233:8000/api/attendance/punch-records/${employeeId}/`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -1011,7 +1011,7 @@ const AttendanceCard = () => {
 
       // Get employee profile
       const profileResponse = await fetch(
-        "http://localhost:8000/api/auth/me/",
+        "http://18.60.123.233:8000/api/auth/me/",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -1044,7 +1044,7 @@ const AttendanceCard = () => {
       };
 
       const response = await fetch(
-        `http://localhost:8000/api/attendance/punch-in/${employeeId}/`,
+        `http://18.60.123.233:8000/api/attendance/punch-in/${employeeId}/`,
         {
           method: "POST",
           headers: {
@@ -1110,7 +1110,7 @@ const AttendanceCard = () => {
 
       // Get employee profile
       const profileResponse = await fetch(
-        "http://localhost:8000/api/auth/me/",
+        "http://18.60.123.233:8000/api/auth/me/",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -1146,7 +1146,7 @@ const AttendanceCard = () => {
       };
 
       const response = await fetch(
-        `http://localhost:8000/api/attendance/punch-out/${employeeId}/`,
+        `http://18.60.123.233:8000/api/attendance/punch-out/${employeeId}/`,
         {
           method: "POST",
           headers: {
@@ -1710,7 +1710,7 @@ const AttendanceCard = () => {
               if (!userId) {
                 // Fallback: fetch from backend
                 const profileRes = await fetch(
-                  "http://localhost:8000/api/auth/me/",
+                  "http://18.60.123.233:8000/api/auth/me/",
                   {
                     headers: {
                       Authorization: `Bearer ${token}`,
@@ -1725,7 +1725,7 @@ const AttendanceCard = () => {
                 }
               }
               const response = await fetch(
-                `http://localhost:8000/api/attendance/admin-replies/${employeeId}/`,
+                `http://18.60.123.233:8000/api/attendance/admin-replies/${employeeId}/`,
                 {
                   headers: {
                     "Content-Type": "application/json",
