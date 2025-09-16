@@ -208,7 +208,7 @@ WSGI_APPLICATION = 'hrms_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'hrms-db',
+        'NAME': 'hrms',
         'USER': 'Hrms',
         'PASSWORD': 'Hrms12345678',
         'HOST': 'hrms-db.cxmagy8eyrol.ap-south-2.rds.amazonaws.com',
