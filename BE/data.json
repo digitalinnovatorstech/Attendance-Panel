@@ -1,0 +1,1405 @@
+[
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 33,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-31",
+      "work_details": "My todays report",
+      "status": "sent",
+      "created_at": "2025-07-31T08:17:38.465Z",
+      "updated_at": "2025-07-31T08:18:01.987Z",
+      "admin_reply": "I have received",
+      "replied_at": "2025-07-31T08:18:01.987Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 31,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-22",
+      "work_details": "daily report today",
+      "status": "sent",
+      "created_at": "2025-07-22T07:35:07.995Z",
+      "updated_at": "2025-07-22T07:35:27.382Z",
+      "admin_reply": "receivedd",
+      "replied_at": "2025-07-22T07:35:27.382Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 32,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-22",
+      "work_details": "My daily report",
+      "status": "sent",
+      "created_at": "2025-07-22T10:47:18.539Z",
+      "updated_at": "2025-07-22T10:50:27.184Z",
+      "admin_reply": "late",
+      "replied_at": "2025-07-22T10:50:27.183Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 30,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-21",
+      "work_details": "report",
+      "status": "sent",
+      "created_at": "2025-07-21T17:02:51.384Z",
+      "updated_at": "2025-07-21T17:03:58.479Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-21T17:03:58.479Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 29,
+    "fields": {
+      "user": 8,
+      "date": "2025-07-18",
+      "work_details": "HHH my report",
+      "status": "sent",
+      "created_at": "2025-07-18T06:24:57.074Z",
+      "updated_at": "2025-07-18T06:25:45.145Z",
+      "admin_reply": "report received",
+      "replied_at": "2025-07-18T06:25:45.145Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 28,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-18",
+      "work_details": "Today report",
+      "status": "sent",
+      "created_at": "2025-07-18T06:08:28.638Z",
+      "updated_at": "2025-07-18T06:15:39.130Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 27,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-18",
+      "work_details": "today report",
+      "status": "sent",
+      "created_at": "2025-07-18T04:57:40.748Z",
+      "updated_at": "2025-07-18T05:07:11.236Z",
+      "admin_reply": "i have received",
+      "replied_at": "2025-07-18T05:07:11.236Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 26,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-18",
+      "work_details": "my daily report",
+      "status": "sent",
+      "created_at": "2025-07-18T04:35:59.616Z",
+      "updated_at": "2025-07-18T04:36:59.734Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-18T04:36:59.734Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 21,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-17",
+      "work_details": "report",
+      "status": "sent",
+      "created_at": "2025-07-17T06:18:05.168Z",
+      "updated_at": "2025-07-17T06:18:05.168Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 19,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-17",
+      "work_details": "My daily report",
+      "status": "sent",
+      "created_at": "2025-07-17T04:53:54.281Z",
+      "updated_at": "2025-07-17T04:53:54.281Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 20,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-17",
+      "work_details": "report",
+      "status": "sent",
+      "created_at": "2025-07-17T05:21:12.370Z",
+      "updated_at": "2025-07-17T05:21:12.370Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 25,
+    "fields": {
+      "user": 55,
+      "date": "2025-07-17",
+      "work_details": "my report",
+      "status": "sent",
+      "created_at": "2025-07-17T12:38:29.667Z",
+      "updated_at": "2025-07-17T12:38:52.367Z",
+      "admin_reply": "recived",
+      "replied_at": "2025-07-17T12:38:52.367Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 24,
+    "fields": {
+      "user": 97,
+      "date": "2025-07-17",
+      "work_details": "my today report",
+      "status": "sent",
+      "created_at": "2025-07-17T12:26:43.995Z",
+      "updated_at": "2025-07-17T12:27:14.848Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-17T12:27:14.848Z",
+      "replied_by": 96
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 23,
+    "fields": {
+      "user": 8,
+      "date": "2025-07-17",
+      "work_details": "my report",
+      "status": "sent",
+      "created_at": "2025-07-17T12:07:29.197Z",
+      "updated_at": "2025-07-17T12:07:51.253Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 22,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-17",
+      "work_details": "my report",
+      "status": "sent",
+      "created_at": "2025-07-17T11:50:26.628Z",
+      "updated_at": "2025-07-17T11:51:49.711Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 17,
+    "fields": {
+      "user": 97,
+      "date": "2025-07-16",
+      "work_details": "my daily report is here",
+      "status": "sent",
+      "created_at": "2025-07-16T06:43:50.779Z",
+      "updated_at": "2025-07-16T06:43:50.779Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 15,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-16",
+      "work_details": "my daily report",
+      "status": "sent",
+      "created_at": "2025-07-16T05:32:03.937Z",
+      "updated_at": "2025-07-16T05:32:03.937Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 16,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-16",
+      "work_details": "my daily report",
+      "status": "sent",
+      "created_at": "2025-07-16T05:39:13.060Z",
+      "updated_at": "2025-07-16T05:39:13.060Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 18,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-16",
+      "work_details": "my daily report",
+      "status": "sent",
+      "created_at": "2025-07-16T10:31:18.678Z",
+      "updated_at": "2025-07-16T10:31:18.678Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 13,
+    "fields": {
+      "user": 19,
+      "date": "2025-07-15",
+      "work_details": "report 1",
+      "status": "sent",
+      "created_at": "2025-07-15T07:32:46.182Z",
+      "updated_at": "2025-07-15T07:33:14.061Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-15T07:33:14.060Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 14,
+    "fields": {
+      "user": 21,
+      "date": "2025-07-15",
+      "work_details": "JAYSHAKAR",
+      "status": "sent",
+      "created_at": "2025-07-15T07:38:52.460Z",
+      "updated_at": "2025-07-15T07:39:29.452Z",
+      "admin_reply": "recievd",
+      "replied_at": "2025-07-15T07:39:29.450Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 11,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-14",
+      "work_details": "today",
+      "status": "sent",
+      "created_at": "2025-07-14T18:38:45.883Z",
+      "updated_at": "2025-07-14T18:49:31.664Z",
+      "admin_reply": "okkk",
+      "replied_at": "2025-07-14T18:49:31.663Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 12,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-14",
+      "work_details": "got it",
+      "status": "sent",
+      "created_at": "2025-07-14T18:48:42.969Z",
+      "updated_at": "2025-07-14T18:48:42.969Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 10,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-14",
+      "work_details": "daily report",
+      "status": "sent",
+      "created_at": "2025-07-14T08:34:29.322Z",
+      "updated_at": "2025-07-14T08:35:28.858Z",
+      "admin_reply": "i received report",
+      "replied_at": "2025-07-14T08:35:28.850Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 8,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-13",
+      "work_details": "today report",
+      "status": "sent",
+      "created_at": "2025-07-13T11:21:27.900Z",
+      "updated_at": "2025-07-13T11:23:24.322Z",
+      "admin_reply": "got it",
+      "replied_at": "2025-07-13T11:23:24.317Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 9,
+    "fields": {
+      "user": 89,
+      "date": "2025-07-13",
+      "work_details": "daily report",
+      "status": "sent",
+      "created_at": "2025-07-13T12:12:11.750Z",
+      "updated_at": "2025-07-13T12:12:40.957Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-13T12:12:40.947Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 4,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-11",
+      "work_details": "hiii",
+      "status": "sent",
+      "created_at": "2025-07-11T04:10:58.795Z",
+      "updated_at": "2025-07-11T04:10:58.795Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 7,
+    "fields": {
+      "user": 12,
+      "date": "2025-07-11",
+      "work_details": "hello",
+      "status": "sent",
+      "created_at": "2025-07-11T18:07:16.221Z",
+      "updated_at": "2025-07-11T18:07:16.221Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 5,
+    "fields": {
+      "user": 96,
+      "date": "2025-07-11",
+      "work_details": "report",
+      "status": "sent",
+      "created_at": "2025-07-11T05:35:23.769Z",
+      "updated_at": "2025-07-11T17:48:57.869Z",
+      "admin_reply": "received",
+      "replied_at": "2025-07-11T17:48:57.868Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 6,
+    "fields": {
+      "user": 14,
+      "date": "2025-07-11",
+      "work_details": "report by me",
+      "status": "sent",
+      "created_at": "2025-07-11T17:37:16.135Z",
+      "updated_at": "2025-07-11T17:40:17.824Z",
+      "admin_reply": "need to check",
+      "replied_at": "2025-07-11T17:40:17.822Z",
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 3,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-11",
+      "work_details": "hii",
+      "status": "sent",
+      "created_at": "2025-07-11T03:59:21.331Z",
+      "updated_at": "2025-07-11T03:59:21.331Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-10",
+      "work_details": "hii",
+      "status": "sent",
+      "created_at": "2025-07-10T07:24:50.079Z",
+      "updated_at": "2025-07-10T07:24:50.079Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.dailyworkreport",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-08",
+      "work_details": "test",
+      "status": "sent",
+      "created_at": "2025-07-08T10:25:43.177Z",
+      "updated_at": "2025-07-08T10:25:43.177Z",
+      "admin_reply": null,
+      "replied_at": null,
+      "replied_by": null
+    }
+  },
+  {
+    "model": "attendance.passwordresettoken",
+    "pk": 10,
+    "fields": {
+      "user": 53,
+      "token": "r9sdAzoNalzE5hF332R4LiJTUSuUUmheIUkzTbKQs9HrafDX",
+      "created_at": "2025-07-18T07:58:48.057Z",
+      "is_used": false,
+      "expires_at": "2025-07-19T07:58:48.057Z"
+    }
+  },
+  {
+    "model": "attendance.passwordresettoken",
+    "pk": 13,
+    "fields": {
+      "user": 83,
+      "token": "AEV3nPuecPewaWzkZaHAMMlkZ6Fs4X8npuMGyxkxFw834qdM",
+      "created_at": "2025-07-22T07:31:19.652Z",
+      "is_used": true,
+      "expires_at": "2025-07-23T07:31:19.651Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 6,
+    "fields": {
+      "report": 28,
+      "admin": 96,
+      "message": "received",
+      "is_read": false,
+      "created_at": "2025-07-18T06:15:39.125Z",
+      "updated_at": "2025-07-18T06:15:39.125Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 5,
+    "fields": {
+      "report": 28,
+      "admin": 96,
+      "message": "hello",
+      "is_read": false,
+      "created_at": "2025-07-18T06:13:15.037Z",
+      "updated_at": "2025-07-18T06:13:15.037Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 4,
+    "fields": {
+      "report": 28,
+      "admin": 96,
+      "message": "admin reply",
+      "is_read": false,
+      "created_at": "2025-07-18T06:09:47.237Z",
+      "updated_at": "2025-07-18T06:09:47.237Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 3,
+    "fields": {
+      "report": 23,
+      "admin": 96,
+      "message": "received",
+      "is_read": false,
+      "created_at": "2025-07-17T12:07:51.237Z",
+      "updated_at": "2025-07-17T12:07:51.237Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 2,
+    "fields": {
+      "report": 22,
+      "admin": 96,
+      "message": "you are late",
+      "is_read": false,
+      "created_at": "2025-07-17T11:51:49.704Z",
+      "updated_at": "2025-07-17T11:51:49.704Z"
+    }
+  },
+  {
+    "model": "attendance.adminreply",
+    "pk": 1,
+    "fields": {
+      "report": 22,
+      "admin": 96,
+      "message": "received",
+      "is_read": false,
+      "created_at": "2025-07-17T11:50:54.428Z",
+      "updated_at": "2025-07-17T11:50:54.428Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 1,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T03:57:31.662Z",
+      "punch_out": "2025-07-11T03:58:08.486Z",
+      "punch_in_time": "03:57 AM",
+      "punch_out_time": "09:28 AM",
+      "is_late": false,
+      "punch_in_reason": "test",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Left Early",
+      "hours_worked": "0h 0m",
+      "created_at": "2025-07-11T03:57:31.671Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 2,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T04:07:41.403Z",
+      "punch_out": "2025-07-11T04:09:28.879Z",
+      "punch_in_time": "04:07 AM",
+      "punch_out_time": "09:39 AM",
+      "is_late": false,
+      "punch_in_reason": "late",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Left Early",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-11T04:07:41.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 3,
+    "fields": {
+      "user": 85,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T04:35:47.197Z",
+      "punch_out": "2025-07-11T04:36:03.350Z",
+      "punch_in_time": "04:35 AM",
+      "punch_out_time": "10:06 AM",
+      "is_late": false,
+      "punch_in_reason": "hii",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Left Early",
+      "hours_worked": "0h 0m",
+      "created_at": "2025-07-11T04:35:47.205Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 4,
+    "fields": {
+      "user": 94,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T05:33:07.803Z",
+      "punch_out": "2025-07-11T05:34:09.349Z",
+      "punch_in_time": "05:33 AM",
+      "punch_out_time": "11:04 AM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Left Early",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-11T05:33:07.816Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 5,
+    "fields": {
+      "user": 14,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T17:34:44.150Z",
+      "punch_out": "2025-07-11T17:36:25.112Z",
+      "punch_in_time": "05:34 PM",
+      "punch_out_time": "11:06 PM",
+      "is_late": false,
+      "punch_in_reason": "",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Full Day",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-11T17:34:44.160Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 6,
+    "fields": {
+      "user": 13,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T17:41:57.316Z",
+      "punch_out": null,
+      "punch_in_time": "11:11 PM",
+      "punch_out_time": "",
+      "is_late": false,
+      "punch_in_reason": "hello",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Late",
+      "hours_worked": "0h 0m",
+      "created_at": "2025-07-11T17:41:57.324Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 7,
+    "fields": {
+      "user": 96,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T17:43:52.280Z",
+      "punch_out": "2025-07-11T17:44:52.834Z",
+      "punch_in_time": "05:43 PM",
+      "punch_out_time": "11:14 PM",
+      "is_late": false,
+      "punch_in_reason": "",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Full Day",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-11T17:43:52.283Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 8,
+    "fields": {
+      "user": 12,
+      "date": "2025-07-11",
+      "punch_in": "2025-07-11T17:56:04.581Z",
+      "punch_out": "2025-07-11T18:05:00.572Z",
+      "punch_in_time": "05:56 PM",
+      "punch_out_time": "11:35 PM",
+      "is_late": false,
+      "punch_in_reason": "",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Full Day",
+      "hours_worked": "0h 8m",
+      "created_at": "2025-07-11T17:56:04.597Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 9,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-12",
+      "punch_in": "2025-07-11T18:36:23.183Z",
+      "punch_out": "2025-07-11T18:36:47.934Z",
+      "punch_in_time": "06:36 PM",
+      "punch_out_time": "12:06 AM",
+      "is_late": false,
+      "punch_in_reason": "hh",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Left Early",
+      "hours_worked": "0h 0m",
+      "created_at": "2025-07-11T18:36:23.187Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 11,
+    "fields": {
+      "user": 89,
+      "date": "2025-07-13",
+      "punch_in": "2025-07-13T12:04:16.764Z",
+      "punch_out": "2025-07-13T12:11:10.135Z",
+      "punch_in_time": "05:34 PM",
+      "punch_out_time": "05:41 PM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 6m",
+      "created_at": "2025-07-13T12:04:16.790Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 12,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-13",
+      "punch_in": "2025-07-13T12:15:43.633Z",
+      "punch_out": "2025-07-13T12:20:17.232Z",
+      "punch_in_time": "05:45 PM",
+      "punch_out_time": "05:50 PM",
+      "is_late": false,
+      "punch_in_reason": "RRR",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 4m",
+      "created_at": "2025-07-13T12:15:43.640Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 13,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-14",
+      "punch_in": "2025-07-14T08:30:01.162Z",
+      "punch_out": "2025-07-14T08:35:52.941Z",
+      "punch_in_time": "02:00 PM",
+      "punch_out_time": "02:05 PM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 5m",
+      "created_at": "2025-07-14T08:30:01.173Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 14,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-14T18:34:58.092Z",
+      "punch_out": "2025-07-14T18:36:21.538Z",
+      "punch_in_time": "12:04 AM",
+      "punch_out_time": "12:06 AM",
+      "is_late": false,
+      "punch_in_reason": "vv",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-14T18:34:58.095Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 15,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-14T18:36:56.827Z",
+      "punch_out": "2025-07-14T18:39:35.641Z",
+      "punch_in_time": "12:06 AM",
+      "punch_out_time": "12:09 AM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-14T18:36:56.830Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 16,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-14T18:47:46.679Z",
+      "punch_out": "2025-07-14T18:50:06.140Z",
+      "punch_in_time": "12:17 AM",
+      "punch_out_time": "12:20 AM",
+      "is_late": false,
+      "punch_in_reason": "gggggg",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-14T18:47:46.682Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 17,
+    "fields": {
+      "user": 19,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-15T07:31:09.584Z",
+      "punch_out": "2025-07-15T07:33:56.559Z",
+      "punch_in_time": "01:01 PM",
+      "punch_out_time": "01:03 PM",
+      "is_late": false,
+      "punch_in_reason": "demmm",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-15T07:31:09.587Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 18,
+    "fields": {
+      "user": 21,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-15T07:37:03.667Z",
+      "punch_out": "2025-07-15T07:39:49.605Z",
+      "punch_in_time": "01:07 PM",
+      "punch_out_time": "01:09 PM",
+      "is_late": false,
+      "punch_in_reason": "JAY",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-15T07:37:03.674Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 19,
+    "fields": {
+      "user": 10,
+      "date": "2025-07-15",
+      "punch_in": "2025-07-15T09:41:39.388Z",
+      "punch_out": "2025-07-15T09:51:00.032Z",
+      "punch_in_time": "03:11 PM",
+      "punch_out_time": "03:21 PM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": null,
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 9m",
+      "created_at": "2025-07-15T09:41:39.399Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 25,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T05:13:24.665Z",
+      "punch_out": "2025-07-17T05:22:14.689Z",
+      "punch_in_time": "10:43 AM",
+      "punch_out_time": "10:52 AM",
+      "is_late": false,
+      "punch_in_reason": "i'm late",
+      "punch_out_reason": "late",
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 8m",
+      "created_at": "2025-07-17T05:13:24.671Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 20,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-16",
+      "punch_in": "2025-07-16T05:18:56.355Z",
+      "punch_out": "2025-07-16T05:25:22.776Z",
+      "punch_in_time": "10:48 AM",
+      "punch_out_time": "10:55 AM",
+      "is_late": false,
+      "punch_in_reason": "I'm late due to the traffic and rain is heavy all roads are blocked no way to pass it",
+      "punch_out_reason": "I'm going to home due to personal issue",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 6m",
+      "created_at": "2025-07-16T05:18:56.359Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 26,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T06:16:29.745Z",
+      "punch_out": "2025-07-17T06:19:12.307Z",
+      "punch_in_time": "11:46 AM",
+      "punch_out_time": "11:49 AM",
+      "is_late": false,
+      "punch_in_reason": "late aruna",
+      "punch_out_reason": "early",
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-17T06:16:29.754Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 21,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-16",
+      "punch_in": "2025-07-16T05:36:02.871Z",
+      "punch_out": "2025-07-16T05:41:10.835Z",
+      "punch_in_time": "11:06 AM",
+      "punch_out_time": "11:11 AM",
+      "is_late": false,
+      "punch_in_reason": "I'm here for work",
+      "punch_out_reason": "going out",
+      "punch_in_reason_status": "rejected",
+      "punch_out_reason_status": "rejected",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 5m",
+      "created_at": "2025-07-16T05:36:02.874Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 22,
+    "fields": {
+      "user": 97,
+      "date": "2025-07-16",
+      "punch_in": "2025-07-16T06:42:14.610Z",
+      "punch_out": "2025-07-16T06:44:35.071Z",
+      "punch_in_time": "12:12 PM",
+      "punch_out_time": "12:14 PM",
+      "is_late": false,
+      "punch_in_reason": "Early in the morning i was late",
+      "punch_out_reason": "going early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "rejected",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-16T06:42:14.620Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 27,
+    "fields": {
+      "user": 1,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T11:44:53.152Z",
+      "punch_out": "2025-07-17T11:48:17.533Z",
+      "punch_in_time": "05:14 PM",
+      "punch_out_time": "05:18 PM",
+      "is_late": false,
+      "punch_in_reason": "Sai late",
+      "punch_out_reason": "sai early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 3m",
+      "created_at": "2025-07-17T11:44:53.158Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 23,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-16",
+      "punch_in": "2025-07-16T10:25:01.251Z",
+      "punch_out": "2025-07-16T10:28:47.741Z",
+      "punch_in_time": "03:55 PM",
+      "punch_out_time": "03:58 PM",
+      "is_late": false,
+      "punch_in_reason": "i'm late",
+      "punch_out_reason": "i'm going out",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 3m",
+      "created_at": "2025-07-16T10:25:01.263Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 24,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T04:44:55.706Z",
+      "punch_out": "2025-07-17T04:49:08.674Z",
+      "punch_in_time": "10:14 AM",
+      "punch_out_time": "10:19 AM",
+      "is_late": false,
+      "punch_in_reason": "i'm late to the office",
+      "punch_out_reason": "early",
+      "punch_in_reason_status": "pending",
+      "punch_out_reason_status": "pending",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 4m",
+      "created_at": "2025-07-17T04:44:55.717Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 33,
+    "fields": {
+      "user": 53,
+      "date": "2025-07-18",
+      "punch_in": "2025-07-18T06:07:08.343Z",
+      "punch_out": "2025-07-18T06:11:50.491Z",
+      "punch_in_time": "11:37 AM",
+      "punch_out_time": "11:41 AM",
+      "is_late": false,
+      "punch_in_reason": "hii",
+      "punch_out_reason": "early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 4m",
+      "created_at": "2025-07-18T06:07:08.351Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 28,
+    "fields": {
+      "user": 8,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T12:03:50.510Z",
+      "punch_out": "2025-07-17T12:06:15.503Z",
+      "punch_in_time": "05:33 PM",
+      "punch_out_time": "05:36 PM",
+      "is_late": false,
+      "punch_in_reason": "bandi late",
+      "punch_out_reason": "bandi early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-17T12:03:50.521Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 38,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-31",
+      "punch_in": "2025-07-31T05:19:22.803Z",
+      "punch_out": "2025-07-31T07:15:49.962Z",
+      "punch_in_time": "10:49 AM",
+      "punch_out_time": "12:45 PM",
+      "is_late": false,
+      "punch_in_reason": "I'm late",
+      "punch_out_reason": "e",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "1h 56m",
+      "created_at": "2025-07-31T05:19:22.810Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 29,
+    "fields": {
+      "user": 97,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T12:25:53.569Z",
+      "punch_out": "2025-07-17T12:27:44.335Z",
+      "punch_in_time": "05:55 PM",
+      "punch_out_time": "05:57 PM",
+      "is_late": false,
+      "punch_in_reason": "admin late",
+      "punch_out_reason": "admin early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-17T12:25:53.578Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 34,
+    "fields": {
+      "user": 8,
+      "date": "2025-07-18",
+      "punch_in": "2025-07-18T06:23:27.235Z",
+      "punch_out": "2025-07-18T06:26:24.899Z",
+      "punch_in_time": "11:53 AM",
+      "punch_out_time": "11:56 AM",
+      "is_late": false,
+      "punch_in_reason": "Hi bandi",
+      "punch_out_reason": "bye",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-18T06:23:27.238Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 30,
+    "fields": {
+      "user": 55,
+      "date": "2025-07-17",
+      "punch_in": "2025-07-17T12:33:46.636Z",
+      "punch_out": "2025-07-17T12:36:21.350Z",
+      "punch_in_time": "06:03 PM",
+      "punch_out_time": "06:06 PM",
+      "is_late": false,
+      "punch_in_reason": "bargavi late",
+      "punch_out_reason": "early going",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-17T12:33:46.644Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 31,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-18",
+      "punch_in": "2025-07-18T04:33:58.910Z",
+      "punch_out": "2025-07-18T04:35:28.354Z",
+      "punch_in_time": "10:03 AM",
+      "punch_out_time": "10:05 AM",
+      "is_late": false,
+      "punch_in_reason": "I'm late vinod",
+      "punch_out_reason": "going early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-18T04:33:58.913Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 35,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-21",
+      "punch_in": "2025-07-21T16:58:59.207Z",
+      "punch_out": "2025-07-21T17:04:37.111Z",
+      "punch_in_time": "10:28 PM",
+      "punch_out_time": "10:34 PM",
+      "is_late": false,
+      "punch_in_reason": "early",
+      "punch_out_reason": "late",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 5m",
+      "created_at": "2025-07-21T16:58:59.220Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 32,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-18",
+      "punch_in": "2025-07-18T04:55:07.470Z",
+      "punch_out": "2025-07-18T04:56:25.415Z",
+      "punch_in_time": "10:25 AM",
+      "punch_out_time": "10:26 AM",
+      "is_late": false,
+      "punch_in_reason": "late to the office",
+      "punch_out_reason": "going early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 1m",
+      "created_at": "2025-07-18T04:55:07.473Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 36,
+    "fields": {
+      "user": 41,
+      "date": "2025-07-22",
+      "punch_in": "2025-07-22T07:33:57.120Z",
+      "punch_out": "2025-07-22T07:36:15.784Z",
+      "punch_in_time": "01:03 PM",
+      "punch_out_time": "01:06 PM",
+      "is_late": false,
+      "punch_in_reason": "late adesh",
+      "punch_out_reason": "going early",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "approved",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 2m",
+      "created_at": "2025-07-22T07:33:57.135Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 37,
+    "fields": {
+      "user": 83,
+      "date": "2025-07-22",
+      "punch_in": "2025-07-22T10:45:24.358Z",
+      "punch_out": "2025-07-22T10:48:32.142Z",
+      "punch_in_time": "04:15 PM",
+      "punch_out_time": "04:18 PM",
+      "is_late": false,
+      "punch_in_reason": "hi",
+      "punch_out_reason": "going out",
+      "punch_in_reason_status": "approved",
+      "punch_out_reason_status": "rejected",
+      "punch_in_admin_comment": null,
+      "punch_out_admin_comment": null,
+      "status": "Present",
+      "hours_worked": "0h 3m",
+      "created_at": "2025-07-22T10:45:24.369Z"
+    }
+  }
+]
